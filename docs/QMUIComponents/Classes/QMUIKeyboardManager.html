@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QMUIKeyboardManager Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QMUIKeyboardManager" class="dashAnchor"></a>
+
+    <a title="QMUIKeyboardManager Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (51% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QMUIKeyboardManager Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/CAAnimation%28QMUI%29.html">CAAnimation(QMUI)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/CALayer%28QMUIViewAnimation%29.html">CALayer(QMUIViewAnimation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIAppearnace%29.html">NSObject(QMUIAppearnace)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIMultipleDelegates%29.html">NSObject(QMUIMultipleDelegates)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIWindowSizeMonitor%29.html">NSObject(QMUIWindowSizeMonitor)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/PHPhotoLibrary%28QMUI%29.html">PHPhotoLibrary(QMUI)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIBarButtonItem%28QMUINavigationButton%29.html">UIBarButtonItem(QMUINavigationButton)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIBarItem%28QMUIBadge%29.html">UIBarItem(QMUIBadge)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUICellHeightIndexPathCache%29.html">UICollectionView(QMUICellHeightIndexPathCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUICellSizeKeyCache%29.html">UICollectionView(QMUICellSizeKeyCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUIIndexPathHeightCacheInvalidation%29.html">UICollectionView(QMUIIndexPathHeightCacheInvalidation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUIKeyedHeightCache%29.html">UICollectionView(QMUIKeyedHeightCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUILayoutCell%29.html">UICollectionView(QMUILayoutCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIColor%28QMUITheme%29.html">UIColor(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIImage%28QMUITheme%29.html">UIImage(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UINavigationBar%28Transition%29.html">UINavigationBar(Transition)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIResponder%28KeyboardManager%29.html">UIResponder(KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUICellHeightIndexPathCache%29.html">UITableView(QMUICellHeightIndexPathCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUICellHeightKeyCache%29.html">UITableView(QMUICellHeightKeyCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUIIndexPathHeightCacheInvalidation%29.html">UITableView(QMUIIndexPathHeightCacheInvalidation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUIKeyedHeightCache%29.html">UITableView(QMUIKeyedHeightCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUILayoutCell%29.html">UITableView(QMUILayoutCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUI_StaticCell%29.html">UITableView(QMUI_StaticCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITextField%28QMUI_KeyboardManager%29.html">UITextField(QMUI_KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITextView%28QMUI_KeyboardManager%29.html">UITextView(QMUI_KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIView%28QMUITheme%29.html">UIView(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIView%28QMUITheme_Private%29.html">UIView(QMUITheme_Private)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIViewController%28QMUIModalPresentationViewController%29.html">UIViewController(QMUIModalPresentationViewController)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIViewController%28QMUITheme%29.html">UIViewController(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIVisualEffect%28QMUITheme%29.html">UIVisualEffect(QMUITheme)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlbumTableViewCell.html">QMUIAlbumTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlbumViewController.html">QMUIAlbumViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlertAction.html">QMUIAlertAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlertController.html">QMUIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAnimationHelper.html">QMUIAnimationHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAppearance.html">QMUIAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAsset.html">QMUIAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAssetsGroup.html">QMUIAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAssetsManager.html">QMUIAssetsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIButton.html">QMUIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightCache.html">QMUICellHeightCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightIndexPathCache.html">QMUICellHeightIndexPathCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightKeyCache.html">QMUICellHeightKeyCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellSizeKeyCache.html">QMUICellSizeKeyCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICollectionViewPagingLayout.html">QMUICollectionViewPagingLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConsoleToolbar.html">QMUIConsoleToolbar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConsoleViewController.html">QMUIConsoleViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogSelectionViewController.html">QMUIDialogSelectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogTextFieldViewController.html">QMUIDialogTextFieldViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogViewController.html">QMUIDialogViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDisplayLinkAnimation.html">QMUIDisplayLinkAnimation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotion.html">QMUIEmotion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotionInputManager.html">QMUIEmotionInputManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotionView.html">QMUIEmotionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmptyView.html">QMUIEmptyView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIFillButton.html">QMUIFillButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIFloatLayoutView.html">QMUIFloatLayoutView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIGhostButton.html">QMUIGhostButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIGridView.html">QMUIGridView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerCollectionViewCell.html">QMUIImagePickerCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerHelper.html">QMUIImagePickerHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerPreviewViewController.html">QMUIImagePickerPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerViewController.html">QMUIImagePickerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewView.html">QMUIImagePreviewView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewViewController.html">QMUIImagePreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewViewTransitionAnimator.html">QMUIImagePreviewViewTransitionAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIKeyboardManager.html">QMUIKeyboardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILabel.html">QMUILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILinkButton.html">QMUILinkButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogItem.html">QMUILogItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogManagerViewController.html">QMUILogManagerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogNameManager.html">QMUILogNameManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogger.html">QMUILogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMarqueeLabel.html">QMUIMarqueeLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIModalPresentationViewController.html">QMUIModalPresentationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUIModalPresentationWindow">QMUIModalPresentationWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMoreOperationController.html">QMUIMoreOperationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMoreOperationItemView.html">QMUIMoreOperationItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMultipleDelegates.html">QMUIMultipleDelegates</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationBarScrollingAnimator.html">QMUINavigationBarScrollingAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationBarScrollingSnapAnimator.html">QMUINavigationBarScrollingSnapAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationButton.html">QMUINavigationButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationTitleView.html">QMUINavigationTitleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIOrderedDictionary.html">QMUIOrderedDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPieProgressView.html">QMUIPieProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupContainerView.html">QMUIPopupContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUIPopupMenuBaseItem">QMUIPopupMenuBaseItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupMenuButtonItem.html">QMUIPopupMenuButtonItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupMenuView.html">QMUIPopupMenuView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIScrollAnimator.html">QMUIScrollAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUISearchBar">QMUISearchBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUISegmentedControl.html">QMUISegmentedControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUISlider.html">QMUISlider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIStaticTableViewCellData.html">QMUIStaticTableViewCellData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIStaticTableViewCellDataSource.html">QMUIStaticTableViewCellDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableView.html">QMUITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableViewCell.html">QMUITableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableViewHeaderFooterView.html">QMUITableViewHeaderFooterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUITestView">QMUITestView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUITestWindow">QMUITestWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITextField.html">QMUITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITextView.html">QMUITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeColor.html">QMUIThemeColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeImage.html">QMUIThemeImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeManager.html">QMUIThemeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeManagerCenter.html">QMUIThemeManagerCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeVisualEffect.html">QMUIThemeVisualEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITips.html">QMUITips</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastAnimator.html">QMUIToastAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastBackgroundView.html">QMUIToastBackgroundView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastContentView.html">QMUIToastContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastView.html">QMUIToastView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToolbarButton.html">QMUIToolbarButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIVisualEffectView.html">QMUIVisualEffectView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIWeakObjectContainer.html">QMUIWeakObjectContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIZoomImageView.html">QMUIZoomImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIZoomImageViewVideoToolbar.html">QMUIZoomImageViewVideoToolbar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICollectionViewPagingLayoutRotationRadiusAutomatic">QMUICollectionViewPagingLayoutRotationRadiusAutomatic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIDialogSelectionViewControllerSelectedItemIndexNone">QMUIDialogSelectionViewControllerSelectedItemIndexNone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIFillButtonCornerRadiusAdjustsBounds">QMUIFillButtonCornerRadiusAdjustsBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIFloatLayoutViewAutomaticalMaximumItemSize">QMUIFloatLayoutViewAutomaticalMaximumItemSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIGhostButtonCornerRadiusAdjustsBounds">QMUIGhostButtonCornerRadiusAdjustsBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIImagePreviewViewControllerCornerRadiusAutomaticDimension">QMUIImagePreviewViewControllerCornerRadiusAutomaticDimension</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUILoggerAllNamesKeyInUserDefaults">QMUILoggerAllNamesKeyInUserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIThemeDidChangeNotification">QMUIThemeDidChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIThemeManagerNameDefault">QMUIThemeManagerNameDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUITipsAutomaticallyHideToastSeconds">QMUITipsAutomaticallyHideToastSeconds</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlbumContentType.html">QMUIAlbumContentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlbumSortType.html">QMUIAlbumSortType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlertActionStyle.html">QMUIAlertActionStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlertControllerStyle.html">QMUIAlertControllerStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAnimationEasings.html">QMUIAnimationEasings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetAuthorizationStatus.html">QMUIAssetAuthorizationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetDownloadStatus.html">QMUIAssetDownloadStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetSubType.html">QMUIAssetSubType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetType.html">QMUIAssetType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIButtonImagePosition.html">QMUIButtonImagePosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUICollectionViewPagingLayoutStyle.html">QMUICollectionViewPagingLayoutStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIFillButtonColor.html">QMUIFillButtonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIGhostButtonColor.html">QMUIGhostButtonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIImagePreviewMediaType.html">QMUIImagePreviewMediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIImagePreviewViewControllerTransitioningStyle.html">QMUIImagePreviewViewControllerTransitioningStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUILogLevel.html">QMUILogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIModalPresentationAnimationStyle.html">QMUIModalPresentationAnimationStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationButtonType.html">QMUINavigationButtonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationTitleViewAccessoryType.html">QMUINavigationTitleViewAccessoryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationTitleViewStyle.html">QMUINavigationTitleViewStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIPieProgressViewShape.html">QMUIPieProgressViewShape</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIPopupContainerViewLayoutDirection.html">QMUIPopupContainerViewLayoutDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIStaticTableViewCellAccessoryType.html">QMUIStaticTableViewCellAccessoryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUITableViewHeaderFooterViewType.html">QMUITableViewHeaderFooterViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToastAnimationType.html">QMUIToastAnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToastViewPosition.html">QMUIToastViewPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToolbarButtonType.html">QMUIToolbarButtonType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIAlbumViewControllerDelegate.html">QMUIAlbumViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIAlertControllerDelegate.html">QMUIAlertControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellHeightCache_UITableViewDataSource.html">QMUICellHeightCache_UITableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellHeightKeyCache_UITableViewDelegate.html">QMUICellHeightKeyCache_UITableViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellSizeKeyCache_UICollectionViewDelegate.html">QMUICellSizeKeyCache_UICollectionViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIDynamicEffectProtocol.html">QMUIDynamicEffectProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIDynamicImageProtocol.html">QMUIDynamicImageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIEmptyViewLoadingViewProtocol.html">QMUIEmptyViewLoadingViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePickerPreviewViewControllerDelegate.html">QMUIImagePickerPreviewViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePickerViewControllerDelegate.html">QMUIImagePickerViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePreviewViewDelegate.html">QMUIImagePreviewViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIKeyboardManagerDelegate.html">QMUIKeyboardManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUILoggerDelegate.html">QMUILoggerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationComponentProtocol.html">QMUIModalPresentationComponentProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationContentViewControllerProtocol.html">QMUIModalPresentationContentViewControllerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationViewControllerDelegate.html">QMUIModalPresentationViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIMoreOperationControllerDelegate.html">QMUIMoreOperationControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationTitleViewDelegate.html">QMUINavigationTitleViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIPopupMenuItemProtocol.html">QMUIPopupMenuItemProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)QMUITableViewDataSource">QMUITableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITableViewDelegate.html">QMUITableViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITextFieldDelegate.html">QMUITextFieldDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITextViewDelegate.html">QMUITextViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIToastAnimatorDelegate.html">QMUIToastAnimatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIWindowSizeMonitorProtocol.html">QMUIWindowSizeMonitorProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIZoomImageViewDelegate.html">QMUIZoomImageViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIWindowSizeMonitor.h@T@QMUIWindowSizeObserverHandler">QMUIWindowSizeObserverHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIAssetsManager.h@T@QMUIWriteAssetCompletionBlock">QMUIWriteAssetCompletionBlock</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUIImageWriteToSavedPhotosAlbumWithAlbumAssetsGroup">QMUIImageWriteToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUISaveImageAtPathToSavedPhotosAlbumWithAlbumAssetsGroup">QMUISaveImageAtPathToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUISaveVideoAtPathToSavedPhotosAlbumWithAlbumAssetsGroup">QMUISaveVideoAtPathToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInBack">QMUI_EaseInBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInBounce">QMUI_EaseInBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInCirc">QMUI_EaseInCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInCubic">QMUI_EaseInCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInElastic">QMUI_EaseInElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInExpo">QMUI_EaseInExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutBack">QMUI_EaseInOutBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutBounce">QMUI_EaseInOutBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutCirc">QMUI_EaseInOutCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutCubic">QMUI_EaseInOutCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutElastic">QMUI_EaseInOutElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutExpo">QMUI_EaseInOutExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuad">QMUI_EaseInOutQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuart">QMUI_EaseInOutQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuint">QMUI_EaseInOutQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutSine">QMUI_EaseInOutSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuad">QMUI_EaseInQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuart">QMUI_EaseInQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuint">QMUI_EaseInQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInSine">QMUI_EaseInSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutBack">QMUI_EaseOutBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutBounce">QMUI_EaseOutBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutCirc">QMUI_EaseOutCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutCubic">QMUI_EaseOutCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutElastic">QMUI_EaseOutElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutExpo">QMUI_EaseOutExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuad">QMUI_EaseOutQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuart">QMUI_EaseOutQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuint">QMUI_EaseOutQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutSine">QMUI_EaseOutSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseSpring">QMUI_EaseSpring</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_Linear">QMUI_Linear</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>QMUIKeyboardManager</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUIKeyboardManager</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p><code>QMUIKeyboardManager</code> 提供了方便管理键盘事件的方案，使用的场景是需要跟随键盘的显示或者隐藏来更改界面的 UI，例如输入框跟随在键盘的顶部。
+  由于键盘通知是整个 App 全局的，所以经常会遇到 A 的键盘监听回调里接收到 B 的键盘事件，这样的情况往往不是我们想要的，即使可以通过判断当前的 firstResponder 来区分，但还是不能完美的解决问题或者有时候解决起来非常麻烦。<code>QMUIKeyboardManager</code> 通过 <code>delegateEnabled</code> 和 <code>targetResponder</code> 等属性来方便地控制 firstResponder，从而可以实现某个键盘监听回调方法只响应某个 UIResponder 或者某几个 UIResponder 触发的键盘通知。
+  使用方式：</p>
+
+<ol>
+<li>使用 initWithDelegate: 方法初始化</li>
+<li>通过 addTargetResponder: 的方式将要监听的输入框添加进来</li>
+<li>在 delegate 方法里（一般用 keyboardWillChangeFrameWithUserInfo:）处理键盘位置变化时的布局</li>
+</ol>
+
+<p>另外 QMUIKeyboardManager 同时集成在了 UITextField(QMUI) 和 UITextView(QMUI) 里，具体请查看对应文件。</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    UITextField(QMUI)
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    UITextView(QMUI)
+
+</div>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(im)initWithDelegate:"></a>
+                    <a name="//apple_ref/swift/Method/-initWithDelegate:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(im)initWithDelegate:">-initWithDelegate:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>指定初始化方法，以 delegate 的方式将键盘事件传递给监听者</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithDelegate</span><span class="p">:(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/QMUIKeyboardManagerDelegate.html">QMUIKeyboardManagerDelegate</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">delegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/QMUIKeyboardManagerDelegate.html">QMUIKeyboardManagerDelegate</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(py)delegate"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(py)delegate">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前的 delegate</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">weak</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/QMUIKeyboardManagerDelegate.html">QMUIKeyboardManagerDelegate</a></span><span class="o">&gt;</span> <span class="n">delegate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/QMUIKeyboardManagerDelegate.html">QMUIKeyboardManagerDelegate</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(py)delegateEnabled"></a>
+                    <a name="//apple_ref/swift/Property/delegateEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(py)delegateEnabled">delegateEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否允许触发delegate的回调，常见的场景例如在 UIViewController viewWillAppear: 里打开，在 viewWillDisappear: 里关闭，从而避免在键盘升起的状态下手势返回时界面布局会跟着键盘往下移动。
+默认为 YES。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">delegateEnabled</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">delegateEnabled</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(py)ignoreApplicationState"></a>
+                    <a name="//apple_ref/swift/Property/ignoreApplicationState" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(py)ignoreApplicationState">ignoreApplicationState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否忽视 <code>applicationState</code> 状态的影响。默认为 NO，也即只有 <code>UIApplicationStateActive</code> 才会响应通知，如果设置为 YES，则任何 state 都会响应通知。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">ignoreApplicationState</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">ignoreApplicationState</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(im)addTargetResponder:"></a>
+                    <a name="//apple_ref/swift/Method/-addTargetResponder:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(im)addTargetResponder:">-addTargetResponder:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>添加触发键盘事件的 UIResponder，一般是 UITextView 或者 UITextField ，不添加 targetResponder 的话，则默认接受任何 UIResponder 产生的键盘通知。
+添加成功将会返回YES，否则返回NO。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">addTargetResponder</span><span class="p">:(</span><span class="n">UIResponder</span> <span class="o">*</span><span class="p">)</span><span class="nv">targetResponder</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addTargetResponder</span><span class="p">(</span><span class="n">_</span> <span class="nv">targetResponder</span><span class="p">:</span> <span class="kt">UIResponder</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(im)allTargetResponders"></a>
+                    <a name="//apple_ref/swift/Method/-allTargetResponders" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(im)allTargetResponders">-allTargetResponders</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前所有的 target UIResponder，若不存在则返回 nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span><span class="o">&lt;</span><span class="n">UIResponder</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="p">)</span><span class="n">allTargetResponders</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">allTargetResponders</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">UIResponder</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(im)removeTargetResponder:"></a>
+                    <a name="//apple_ref/swift/Method/-removeTargetResponder:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(im)removeTargetResponder:">-removeTargetResponder:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>移除 targetResponder 跟 keyboardManager 的关系，如果成功会返回 YES</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">removeTargetResponder</span><span class="p">:(</span><span class="n">UIResponder</span> <span class="o">*</span><span class="p">)</span><span class="nv">targetResponder</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeTargetResponder</span><span class="p">(</span><span class="n">_</span> <span class="nv">targetResponder</span><span class="p">:</span> <span class="kt">UIResponder</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)convertKeyboardRect:toView:"></a>
+                    <a name="//apple_ref/swift/Method/+convertKeyboardRect:toView:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)convertKeyboardRect:toView:">+convertKeyboardRect:<wbr>toView:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>把键盘的rect转为相对于view的rect。一般用来把键盘的rect转化为相对于当前 self.view 的 rect，然后获取 y 值来布局对应的 view（这里一般不要获取键盘的高度，因为对于iPad的键盘，浮动状态下键盘的高度往往不是我们想要的）。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGRect</span><span class="p">)</span><span class="nf">convertKeyboardRect</span><span class="p">:(</span><span class="n">CGRect</span><span class="p">)</span><span class="nv">rect</span> <span class="nf">toView</span><span class="p">:(</span><span class="n">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">view</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">convertKeyboardRect</span><span class="p">(</span><span class="n">_</span> <span class="nv">rect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="n">to</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rect</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>键盘的rect，一般拿 keyboardUserInfo.endFrame</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>一个特定的view或者window，如果传入nil则相对有当前的 mainWindow</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)distanceFromMinYToBottomInView:keyboardRect:"></a>
+                    <a name="//apple_ref/swift/Method/+distanceFromMinYToBottomInView:keyboardRect:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)distanceFromMinYToBottomInView:keyboardRect:">+distanceFromMinYToBottomInView:<wbr>keyboardRect:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取键盘到顶部到相对于view底部的距离，这个值在某些情况下会等于endFrame.size.height或者visibleKeyboardHeight，不过在iPad浮动键盘的时候就包括了底部的空隙。所以建议使用这个方法。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGFloat</span><span class="p">)</span><span class="nf">distanceFromMinYToBottomInView</span><span class="p">:(</span><span class="n">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">view</span>
+                             <span class="nf">keyboardRect</span><span class="p">:(</span><span class="n">CGRect</span><span class="p">)</span><span class="nv">rect</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">distanceFromMinYToBottom</span><span class="p">(</span><span class="k">in</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="o">!</span><span class="p">,</span> <span class="n">keyboardRect</span> <span class="nv">rect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)animateWithAnimated:keyboardUserInfo:animations:completion:"></a>
+                    <a name="//apple_ref/swift/Method/+animateWithAnimated:keyboardUserInfo:animations:completion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)animateWithAnimated:keyboardUserInfo:animations:completion:">+animateWithAnimated:<wbr>keyboardUserInfo:<wbr>animations:<wbr>completion:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>根据键盘的动画参数自己构建一个动画，调用者只需要设置view的位置即可</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">animateWithAnimated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span>
+           <span class="nf">keyboardUserInfo</span><span class="p">:(</span><span class="n"><a href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">keyboardUserInfo</span>
+                 <span class="nf">animations</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">animations</span>
+                 <span class="nf">completion</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">animateWith</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">keyboardUserInfo</span><span class="p">:</span> <span class="kt"><a href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a></span><span class="o">!</span><span class="p">,</span> <span class="nv">animations</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span><span class="o">!</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)handleKeyboardNotificationWithUserInfo:showBlock:hideBlock:"></a>
+                    <a name="//apple_ref/swift/Method/+handleKeyboardNotificationWithUserInfo:showBlock:hideBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)handleKeyboardNotificationWithUserInfo:showBlock:hideBlock:">+handleKeyboardNotificationWithUserInfo:<wbr>showBlock:<wbr>hideBlock:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>这个方法特殊处理 iPad Pro 外接键盘的情况。使用外接键盘在完全不显示键盘的时候，不会调用willShow的通知，所以导致一些通过willShow回调来显示targetResponder的场景（例如微信朋友圈的评论输入框）无法把targetResponder正常的显示出来。通过这个方法，你只需要关心你的show和hide的状态就好了，不需要关心是否 iPad Pro 的情况。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+    <span class="nf">handleKeyboardNotificationWithUserInfo</span><span class="p">:</span>
+        <span class="p">(</span><span class="n"><a href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">keyboardUserInfo</span>
+                                 <span class="nf">showBlock</span><span class="p">:</span>
+                                     <span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n"><a href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a></span> <span class="o">*</span><span class="p">))</span><span class="nv">showBlock</span>
+                                 <span class="nf">hideBlock</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n"><a href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a></span> <span class="o">*</span><span class="p">))</span>
+                                               <span class="n">hideBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">handleKeyboardNotification</span><span class="p">(</span><span class="n">with</span> <span class="nv">keyboardUserInfo</span><span class="p">:</span> <span class="kt"><a href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a></span><span class="o">!</span><span class="p">,</span> <span class="n">show</span> <span class="nv">showBlock</span><span class="p">:</span> <span class="p">((</span><span class="kt"><a href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span><span class="o">!</span><span class="p">,</span> <span class="n">hide</span> <span class="nv">hideBlock</span><span class="p">:</span> <span class="p">((</span><span class="kt"><a href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>showBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>键盘显示回调的block，不能把showBlock理解为系统的show通知，而是你有输入框聚焦了并且期望键盘显示出来。</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hideBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>键盘隐藏回调的block，不能把hideBlock理解为系统的hide通知，而是键盘即将消失在界面上并且你期望跟随键盘变化的UI回到默认状态。</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)keyboardView"></a>
+                    <a name="//apple_ref/swift/Method/+keyboardView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)keyboardView">+keyboardView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>键盘面板的私有view，可能为nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">UIView</span> <span class="o">*</span><span class="p">)</span><span class="n">keyboardView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">keyboardView</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)keyboardWindow"></a>
+                    <a name="//apple_ref/swift/Method/+keyboardWindow" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)keyboardWindow">+keyboardWindow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>键盘面板所在的私有window，可能为nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">UIWindow</span> <span class="o">*</span><span class="p">)</span><span class="n">keyboardWindow</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">keyboardWindow</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIWindow</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)isKeyboardVisible"></a>
+                    <a name="//apple_ref/swift/Method/+isKeyboardVisible" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)isKeyboardVisible">+isKeyboardVisible</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否有键盘在显示</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isKeyboardVisible</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isKeyboardVisible</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)currentKeyboardFrame"></a>
+                    <a name="//apple_ref/swift/Method/+currentKeyboardFrame" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)currentKeyboardFrame">+currentKeyboardFrame</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当期那键盘相对于屏幕的frame</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGRect</span><span class="p">)</span><span class="n">currentKeyboardFrame</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">currentKeyboardFrame</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIKeyboardManager(cm)visibleKeyboardHeight"></a>
+                    <a name="//apple_ref/swift/Method/+visibleKeyboardHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIKeyboardManager(cm)visibleKeyboardHeight">+visibleKeyboardHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当前键盘高度键盘的可见高度</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGFloat</span><span class="p">)</span><span class="n">visibleKeyboardHeight</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">visibleKeyboardHeight</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

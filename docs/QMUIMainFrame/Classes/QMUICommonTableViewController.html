@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QMUICommonTableViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QMUICommonTableViewController" class="dashAnchor"></a>
+
+    <a title="QMUICommonTableViewController Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (82% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QMUICommonTableViewController Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICommonTableViewController.html">QMUICommonTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICommonViewController.html">QMUICommonViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationController.html">QMUINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITabBarViewController.html">QMUITabBarViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICommonTableViewControllerSectionFooterIdentifier">QMUICommonTableViewControllerSectionFooterIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICommonTableViewControllerSectionHeaderIdentifier">QMUICommonTableViewControllerSectionHeaderIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICustomNavigationBarTransitionDelegate.html">QMUICustomNavigationBarTransitionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationControllerAppearanceDelegate.html">QMUINavigationControllerAppearanceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)QMUINavigationControllerDelegate">QMUINavigationControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationControllerTransitionDelegate.html">QMUINavigationControllerTransitionDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>QMUICommonTableViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUICommonTableViewController</span> <span class="p">:</span> <span class="nc"><a href="../Classes/QMUICommonViewController.html">QMUICommonViewController</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>可作为项目内所有 <code>UITableViewController</code> 的基类，注意是继承自 <code><a href="../Classes/QMUICommonViewController.html">QMUICommonViewController</a></code> 而不是 <code>UITableViewController</code>。</p>
+
+<p>一般通过 <code>initWithStyle:</code> 方法初始化，对于要生成 <code>UITableViewStylePlain</code> 类型的列表，推荐使用 <code>init:</code> 方法。</p>
+
+<p>提供的功能包括：</p>
+
+<ol>
+<li>集成 <code>QMUISearchController</code>，可通过属性 <code>shouldShowSearchBar</code> 来快速为列表生成一个 searchBar 及 searchController，具体请查看 QMUICommonTableViewController (Search)。</li>
+<li>支持仅设置 tableView:titleForHeaderInSection: 就能自动生成 sectionHeader，无需编写 viewForHeaderInSection:、heightForHeaderInSection: 等方法。</li>
+<li>自带一个 QMUIEmptyView，作为 tableView 的 subview，可用于显示 loading、空或错误提示语等。</li>
+</ol>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>emptyView 会从 tableHeaderView 的下方开始布局到 tableView 最底部，因此它会遮挡 tableHeaderView 之外的部分（比如 tableFooterView 和 cells ），你可以重写 layoutEmptyView 来改变这个布局方式</p>
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <p>QMUISearchController</p>
+
+</div>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(im)initWithStyle:"></a>
+                    <a name="//apple_ref/swift/Method/-initWithStyle:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(im)initWithStyle:">-initWithStyle:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithStyle</span><span class="p">:(</span><span class="n">UITableViewStyle</span><span class="p">)</span><span class="nv">style</span> <span class="n">NS_DESIGNATED_INITIALIZER</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">style</span><span class="p">:</span> <span class="kt">UITableView</span><span class="o">.</span><span class="kt">Style</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/-initWithCoder:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(im)initWithCoder:">-initWithCoder:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithCoder</span><span class="p">:(</span><span class="n">NSCoder</span> <span class="o">*</span><span class="p">)</span><span class="nv">aDecoder</span> <span class="n">NS_DESIGNATED_INITIALIZER</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(im)didInitializeWithStyle:"></a>
+                    <a name="//apple_ref/swift/Method/-didInitializeWithStyle:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(im)didInitializeWithStyle:">-didInitializeWithStyle:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>初始化时调用的方法，会在两个 NS_DESIGNATED_INITIALIZER 方法中被调用，所以子类如果需要同时支持两个 NS_DESIGNATED_INITIALIZER 方法，则建议把初始化时要做的事情放到这个方法里。否则仅需重写要支持的那个 NS_DESIGNATED_INITIALIZER 方法即可。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didInitializeWithStyle</span><span class="p">:(</span><span class="n">UITableViewStyle</span><span class="p">)</span><span class="nv">style</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">didInitialize</span><span class="p">(</span><span class="n">with</span> <span class="nv">style</span><span class="p">:</span> <span class="kt">UITableView</span><span class="o">.</span><span class="kt">Style</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(py)style"></a>
+                    <a name="//apple_ref/swift/Property/style" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(py)style">style</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前的 <code>UITableViewStyle</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">UITableViewStyle</span> <span class="n">style</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">style</span><span class="p">:</span> <span class="kt">UITableView</span><span class="o">.</span><span class="kt">Style</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(py)tableView"></a>
+                    <a name="//apple_ref/swift/Property/tableView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(py)tableView">tableView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前的 tableView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">null_resettable</span><span class="p">)</span> <span class="n">IBOutlet</span> <span class="n">QMUITableView</span> <span class="o">*</span><span class="n">tableView</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(im)hideTableHeaderViewInitialIfCanWithAnimated:force:"></a>
+                    <a name="//apple_ref/swift/Method/-hideTableHeaderViewInitialIfCanWithAnimated:force:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(im)hideTableHeaderViewInitialIfCanWithAnimated:force:">-hideTableHeaderViewInitialIfCanWithAnimated:<wbr>force:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">hideTableHeaderViewInitialIfCanWithAnimated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span> <span class="nf">force</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">force</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hideTableHeaderViewInitialIfCanWith</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">force</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/QMUISubclassingHooks"></a>
+                <a name="//apple_ref/swift/Section/QMUISubclassingHooks" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/QMUISubclassingHooks"></a>
+                  <h3 class="section-name"><p>QMUISubclassingHooks</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(im)initTableView"></a>
+                    <a name="//apple_ref/swift/Method/-initTableView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(im)initTableView">-initTableView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>初始化tableView，在initSubViews的时候被自动调用。</p>
+
+<p>一般情况下，有关tableView的设置属性的代码都应该写在这里。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">initTableView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">initTableView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(im)layoutTableView"></a>
+                    <a name="//apple_ref/swift/Method/-layoutTableView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(im)layoutTableView">-layoutTableView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>布局 tableView 的方法独立抽取出来，方便子类在需要自定义 tableView.frame 时能重写并且屏蔽掉 super 的代码。如果不独立一个方法而是放在 viewDidLayoutSubviews 里，子类就很难屏蔽 super 里对 tableView.frame 的修改。
+默认的实现是撑满 self.view，如果要自定义，可以写在这里而不调用 super，或者干脆重写这个方法但留空</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">layoutTableView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">layoutTableView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController(im)shouldHideTableHeaderViewInitial"></a>
+                    <a name="//apple_ref/swift/Method/-shouldHideTableHeaderViewInitial" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController(im)shouldHideTableHeaderViewInitial">-shouldHideTableHeaderViewInitial</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>是否需要在第一次进入界面时将tableHeaderView隐藏（通过调整self.tableView.contentOffset实现）</p>
+
+<p>默认为NO</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUITableViewDelegate
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">shouldHideTableHeaderViewInitial</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">shouldHideTableHeaderViewInitial</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

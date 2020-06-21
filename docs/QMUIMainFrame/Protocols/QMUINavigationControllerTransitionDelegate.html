@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QMUINavigationControllerTransitionDelegate Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Protocol/QMUINavigationControllerTransitionDelegate" class="dashAnchor"></a>
+
+    <a title="QMUINavigationControllerTransitionDelegate Protocol Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (82% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QMUINavigationControllerTransitionDelegate Protocol Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICommonTableViewController.html">QMUICommonTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICommonViewController.html">QMUICommonViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationController.html">QMUINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITabBarViewController.html">QMUITabBarViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICommonTableViewControllerSectionFooterIdentifier">QMUICommonTableViewControllerSectionFooterIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICommonTableViewControllerSectionHeaderIdentifier">QMUICommonTableViewControllerSectionHeaderIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICustomNavigationBarTransitionDelegate.html">QMUICustomNavigationBarTransitionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationControllerAppearanceDelegate.html">QMUINavigationControllerAppearanceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)QMUINavigationControllerDelegate">QMUINavigationControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationControllerTransitionDelegate.html">QMUINavigationControllerTransitionDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>QMUINavigationControllerTransitionDelegate</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">QMUINavigationControllerTransitionDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>与 QMUINavigationController push/pop 相关的一些方法</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)QMUINavigationControllerTransitionDelegate(im)navigationController:poppingByInteractiveGestureRecognizer:viewControllerWillDisappear:viewControllerWillAppear:"></a>
+                    <a name="//apple_ref/swift/Method/-navigationController:poppingByInteractiveGestureRecognizer:viewControllerWillDisappear:viewControllerWillAppear:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)QMUINavigationControllerTransitionDelegate(im)navigationController:poppingByInteractiveGestureRecognizer:viewControllerWillDisappear:viewControllerWillAppear:">-navigationController:<wbr>poppingByInteractiveGestureRecognizer:<wbr>viewControllerWillDisappear:<wbr>viewControllerWillAppear:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当前界面正处于手势返回的过程中，可自行通过 gestureRecognizer.state 来区分手势返回的各个阶段。手势返回有多个阶段（手势返回开始、拖拽过程中、松手并成功返回、松手但不切换界面），不同阶段的 viewController 的状态可能不一样。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">navigationController</span><span class="p">:</span>
+            <span class="p">(</span><span class="n">nonnull</span> <span class="n"><a href="../Classes/QMUINavigationController.html">QMUINavigationController</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">navigationController</span>
+    <span class="nf">poppingByInteractiveGestureRecognizer</span><span class="p">:</span>
+        <span class="p">(</span><span class="n">nullable</span> <span class="n">UIScreenEdgePanGestureRecognizer</span> <span class="o">*</span><span class="p">)</span><span class="nv">gestureRecognizer</span>
+              <span class="nf">viewControllerWillDisappear</span><span class="p">:</span>
+                  <span class="p">(</span><span class="n">nullable</span> <span class="n">UIViewController</span> <span class="o">*</span><span class="p">)</span><span class="nv">viewControllerWillDisappear</span>
+                 <span class="nf">viewControllerWillAppear</span><span class="p">:</span>
+                     <span class="p">(</span><span class="n">nullable</span> <span class="n">UIViewController</span> <span class="o">*</span><span class="p">)</span><span class="nv">viewControllerWillAppear</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">navigationController</span><span class="p">(</span><span class="n">_</span> <span class="nv">navigationController</span><span class="p">:</span> <span class="kt"><a href="../Classes/QMUINavigationController.html">QMUINavigationController</a></span><span class="p">,</span> <span class="n">poppingByInteractiveGestureRecognizer</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UIScreenEdgePanGestureRecognizer</span><span class="p">?,</span> <span class="nv">viewControllerWillDisappear</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?,</span> <span class="nv">viewControllerWillAppear</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>navigationController</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>当前正在手势返回的 QMUINavigationController，由于某些阶段下无法通过 vc.navigationController 获取到 nav 的引用，所以直接传一个参数</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gestureRecognizer</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>手势对象</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>viewControllerWillDisappear</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>手势返回中顶部的那个 vc</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>viewControllerWillAppear</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>手势返回中背后的那个 vc</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)QMUINavigationControllerTransitionDelegate(im)willPopInNavigationControllerWithAnimated:"></a>
+                    <a name="//apple_ref/swift/Method/-willPopInNavigationControllerWithAnimated:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)QMUINavigationControllerTransitionDelegate(im)willPopInNavigationControllerWithAnimated:">-willPopInNavigationControllerWithAnimated:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>在 self.navigationController 进行以下 4 个操作前，相应的 viewController 的 willPopInNavigationControllerWithAnimated: 方法会被调用：</p>
+
+<ol>
+<li>popViewControllerAnimated:</li>
+<li>popToViewController:animated:</li>
+<li>popToRootViewControllerAnimated:</li>
+<li>setViewControllers:animated:</li>
+</ol>
+
+<p>此时 self 仍存在于 self.navigationController.viewControllers 堆栈内。</p>
+
+<p>在 ARC 环境下，viewController 可能被放在 autorelease 池中，因此 viewController 被pop后不一定立即被销毁，所以一些对实时性要求很高的内存管理逻辑可以写在这里（而不是写在dealloc内）</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    不要尝试将 willPopInNavigationControllerWithAnimated: 视为点击返回按钮的回调，因为导致 viewController 被 pop 的情况不止点击返回按钮这一途径。系统的返回按钮是无法添加回调的，只能使用自定义的返回按钮。
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">willPopInNavigationControllerWithAnimated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">willPopInNavigationControllerWith</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)QMUINavigationControllerTransitionDelegate(im)didPopInNavigationControllerWithAnimated:"></a>
+                    <a name="//apple_ref/swift/Method/-didPopInNavigationControllerWithAnimated:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)QMUINavigationControllerTransitionDelegate(im)didPopInNavigationControllerWithAnimated:">-didPopInNavigationControllerWithAnimated:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>在 self.navigationController 进行以下 4 个操作后，相应的 viewController 的 didPopInNavigationControllerWithAnimated: 方法会被调用：</p>
+
+<ol>
+<li>popViewControllerAnimated:</li>
+<li>popToViewController:animated:</li>
+<li>popToRootViewControllerAnimated:</li>
+<li>setViewControllers:animated:</li>
+</ol>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    此时 self 已经不在 viewControllers 数组内
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didPopInNavigationControllerWithAnimated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">didPopInNavigationControllerWith</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)QMUINavigationControllerTransitionDelegate(im)viewControllerKeepingAppearWhenSetViewControllersWithAnimated:"></a>
+                    <a name="//apple_ref/swift/Method/-viewControllerKeepingAppearWhenSetViewControllersWithAnimated:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)QMUINavigationControllerTransitionDelegate(im)viewControllerKeepingAppearWhenSetViewControllersWithAnimated:">-viewControllerKeepingAppearWhenSetViewControllersWithAnimated:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当通过 setViewControllers:animated: 来修改 viewController 的堆栈时，如果参数 viewControllers.lastObject 与当前的 self.viewControllers.lastObject 不相同，则意味着会产生界面的切换，这种情况系统会自动调用两个切换的界面的生命周期方法，但如果两者相同，则意味着并不会产生界面切换，此时之前就已经在显示的那个 viewController 的 viewWillAppear:、viewDidAppear: 并不会被调用，那如果用户确实需要在这个时候修改一些界面元素，则找不到一个时机。所以这个方法就是提供这样一个时机给用户修改界面元素。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">viewControllerKeepingAppearWhenSetViewControllersWithAnimated</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">optional</span> <span class="kd">func</span> <span class="nf">viewControllerKeepingAppearWhenSetViewControllersWith</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

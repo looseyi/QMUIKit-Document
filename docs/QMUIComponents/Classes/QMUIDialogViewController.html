@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QMUIDialogViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QMUIDialogViewController" class="dashAnchor"></a>
+
+    <a title="QMUIDialogViewController Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (51% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QMUIDialogViewController Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/CAAnimation%28QMUI%29.html">CAAnimation(QMUI)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/CALayer%28QMUIViewAnimation%29.html">CALayer(QMUIViewAnimation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIAppearnace%29.html">NSObject(QMUIAppearnace)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIMultipleDelegates%29.html">NSObject(QMUIMultipleDelegates)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIWindowSizeMonitor%29.html">NSObject(QMUIWindowSizeMonitor)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/PHPhotoLibrary%28QMUI%29.html">PHPhotoLibrary(QMUI)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIBarButtonItem%28QMUINavigationButton%29.html">UIBarButtonItem(QMUINavigationButton)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIBarItem%28QMUIBadge%29.html">UIBarItem(QMUIBadge)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUICellHeightIndexPathCache%29.html">UICollectionView(QMUICellHeightIndexPathCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUICellSizeKeyCache%29.html">UICollectionView(QMUICellSizeKeyCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUIIndexPathHeightCacheInvalidation%29.html">UICollectionView(QMUIIndexPathHeightCacheInvalidation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUIKeyedHeightCache%29.html">UICollectionView(QMUIKeyedHeightCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUILayoutCell%29.html">UICollectionView(QMUILayoutCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIColor%28QMUITheme%29.html">UIColor(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIImage%28QMUITheme%29.html">UIImage(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UINavigationBar%28Transition%29.html">UINavigationBar(Transition)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIResponder%28KeyboardManager%29.html">UIResponder(KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUICellHeightIndexPathCache%29.html">UITableView(QMUICellHeightIndexPathCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUICellHeightKeyCache%29.html">UITableView(QMUICellHeightKeyCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUIIndexPathHeightCacheInvalidation%29.html">UITableView(QMUIIndexPathHeightCacheInvalidation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUIKeyedHeightCache%29.html">UITableView(QMUIKeyedHeightCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUILayoutCell%29.html">UITableView(QMUILayoutCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUI_StaticCell%29.html">UITableView(QMUI_StaticCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITextField%28QMUI_KeyboardManager%29.html">UITextField(QMUI_KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITextView%28QMUI_KeyboardManager%29.html">UITextView(QMUI_KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIView%28QMUITheme%29.html">UIView(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIView%28QMUITheme_Private%29.html">UIView(QMUITheme_Private)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIViewController%28QMUIModalPresentationViewController%29.html">UIViewController(QMUIModalPresentationViewController)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIViewController%28QMUITheme%29.html">UIViewController(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIVisualEffect%28QMUITheme%29.html">UIVisualEffect(QMUITheme)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlbumTableViewCell.html">QMUIAlbumTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlbumViewController.html">QMUIAlbumViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlertAction.html">QMUIAlertAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlertController.html">QMUIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAnimationHelper.html">QMUIAnimationHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAppearance.html">QMUIAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAsset.html">QMUIAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAssetsGroup.html">QMUIAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAssetsManager.html">QMUIAssetsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIButton.html">QMUIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightCache.html">QMUICellHeightCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightIndexPathCache.html">QMUICellHeightIndexPathCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightKeyCache.html">QMUICellHeightKeyCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellSizeKeyCache.html">QMUICellSizeKeyCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICollectionViewPagingLayout.html">QMUICollectionViewPagingLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConsoleToolbar.html">QMUIConsoleToolbar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConsoleViewController.html">QMUIConsoleViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogSelectionViewController.html">QMUIDialogSelectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogTextFieldViewController.html">QMUIDialogTextFieldViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogViewController.html">QMUIDialogViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDisplayLinkAnimation.html">QMUIDisplayLinkAnimation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotion.html">QMUIEmotion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotionInputManager.html">QMUIEmotionInputManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotionView.html">QMUIEmotionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmptyView.html">QMUIEmptyView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIFillButton.html">QMUIFillButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIFloatLayoutView.html">QMUIFloatLayoutView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIGhostButton.html">QMUIGhostButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIGridView.html">QMUIGridView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerCollectionViewCell.html">QMUIImagePickerCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerHelper.html">QMUIImagePickerHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerPreviewViewController.html">QMUIImagePickerPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerViewController.html">QMUIImagePickerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewView.html">QMUIImagePreviewView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewViewController.html">QMUIImagePreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewViewTransitionAnimator.html">QMUIImagePreviewViewTransitionAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIKeyboardManager.html">QMUIKeyboardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILabel.html">QMUILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILinkButton.html">QMUILinkButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogItem.html">QMUILogItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogManagerViewController.html">QMUILogManagerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogNameManager.html">QMUILogNameManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogger.html">QMUILogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMarqueeLabel.html">QMUIMarqueeLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIModalPresentationViewController.html">QMUIModalPresentationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUIModalPresentationWindow">QMUIModalPresentationWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMoreOperationController.html">QMUIMoreOperationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMoreOperationItemView.html">QMUIMoreOperationItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMultipleDelegates.html">QMUIMultipleDelegates</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationBarScrollingAnimator.html">QMUINavigationBarScrollingAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationBarScrollingSnapAnimator.html">QMUINavigationBarScrollingSnapAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationButton.html">QMUINavigationButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationTitleView.html">QMUINavigationTitleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIOrderedDictionary.html">QMUIOrderedDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPieProgressView.html">QMUIPieProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupContainerView.html">QMUIPopupContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUIPopupMenuBaseItem">QMUIPopupMenuBaseItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupMenuButtonItem.html">QMUIPopupMenuButtonItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupMenuView.html">QMUIPopupMenuView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIScrollAnimator.html">QMUIScrollAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUISearchBar">QMUISearchBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUISegmentedControl.html">QMUISegmentedControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUISlider.html">QMUISlider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIStaticTableViewCellData.html">QMUIStaticTableViewCellData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIStaticTableViewCellDataSource.html">QMUIStaticTableViewCellDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableView.html">QMUITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableViewCell.html">QMUITableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableViewHeaderFooterView.html">QMUITableViewHeaderFooterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUITestView">QMUITestView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUITestWindow">QMUITestWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITextField.html">QMUITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITextView.html">QMUITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeColor.html">QMUIThemeColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeImage.html">QMUIThemeImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeManager.html">QMUIThemeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeManagerCenter.html">QMUIThemeManagerCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeVisualEffect.html">QMUIThemeVisualEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITips.html">QMUITips</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastAnimator.html">QMUIToastAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastBackgroundView.html">QMUIToastBackgroundView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastContentView.html">QMUIToastContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastView.html">QMUIToastView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToolbarButton.html">QMUIToolbarButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIVisualEffectView.html">QMUIVisualEffectView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIWeakObjectContainer.html">QMUIWeakObjectContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIZoomImageView.html">QMUIZoomImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIZoomImageViewVideoToolbar.html">QMUIZoomImageViewVideoToolbar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICollectionViewPagingLayoutRotationRadiusAutomatic">QMUICollectionViewPagingLayoutRotationRadiusAutomatic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIDialogSelectionViewControllerSelectedItemIndexNone">QMUIDialogSelectionViewControllerSelectedItemIndexNone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIFillButtonCornerRadiusAdjustsBounds">QMUIFillButtonCornerRadiusAdjustsBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIFloatLayoutViewAutomaticalMaximumItemSize">QMUIFloatLayoutViewAutomaticalMaximumItemSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIGhostButtonCornerRadiusAdjustsBounds">QMUIGhostButtonCornerRadiusAdjustsBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIImagePreviewViewControllerCornerRadiusAutomaticDimension">QMUIImagePreviewViewControllerCornerRadiusAutomaticDimension</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUILoggerAllNamesKeyInUserDefaults">QMUILoggerAllNamesKeyInUserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIThemeDidChangeNotification">QMUIThemeDidChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIThemeManagerNameDefault">QMUIThemeManagerNameDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUITipsAutomaticallyHideToastSeconds">QMUITipsAutomaticallyHideToastSeconds</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlbumContentType.html">QMUIAlbumContentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlbumSortType.html">QMUIAlbumSortType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlertActionStyle.html">QMUIAlertActionStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlertControllerStyle.html">QMUIAlertControllerStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAnimationEasings.html">QMUIAnimationEasings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetAuthorizationStatus.html">QMUIAssetAuthorizationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetDownloadStatus.html">QMUIAssetDownloadStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetSubType.html">QMUIAssetSubType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetType.html">QMUIAssetType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIButtonImagePosition.html">QMUIButtonImagePosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUICollectionViewPagingLayoutStyle.html">QMUICollectionViewPagingLayoutStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIFillButtonColor.html">QMUIFillButtonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIGhostButtonColor.html">QMUIGhostButtonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIImagePreviewMediaType.html">QMUIImagePreviewMediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIImagePreviewViewControllerTransitioningStyle.html">QMUIImagePreviewViewControllerTransitioningStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUILogLevel.html">QMUILogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIModalPresentationAnimationStyle.html">QMUIModalPresentationAnimationStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationButtonType.html">QMUINavigationButtonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationTitleViewAccessoryType.html">QMUINavigationTitleViewAccessoryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationTitleViewStyle.html">QMUINavigationTitleViewStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIPieProgressViewShape.html">QMUIPieProgressViewShape</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIPopupContainerViewLayoutDirection.html">QMUIPopupContainerViewLayoutDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIStaticTableViewCellAccessoryType.html">QMUIStaticTableViewCellAccessoryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUITableViewHeaderFooterViewType.html">QMUITableViewHeaderFooterViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToastAnimationType.html">QMUIToastAnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToastViewPosition.html">QMUIToastViewPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToolbarButtonType.html">QMUIToolbarButtonType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIAlbumViewControllerDelegate.html">QMUIAlbumViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIAlertControllerDelegate.html">QMUIAlertControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellHeightCache_UITableViewDataSource.html">QMUICellHeightCache_UITableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellHeightKeyCache_UITableViewDelegate.html">QMUICellHeightKeyCache_UITableViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellSizeKeyCache_UICollectionViewDelegate.html">QMUICellSizeKeyCache_UICollectionViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIDynamicEffectProtocol.html">QMUIDynamicEffectProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIDynamicImageProtocol.html">QMUIDynamicImageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIEmptyViewLoadingViewProtocol.html">QMUIEmptyViewLoadingViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePickerPreviewViewControllerDelegate.html">QMUIImagePickerPreviewViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePickerViewControllerDelegate.html">QMUIImagePickerViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePreviewViewDelegate.html">QMUIImagePreviewViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIKeyboardManagerDelegate.html">QMUIKeyboardManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUILoggerDelegate.html">QMUILoggerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationComponentProtocol.html">QMUIModalPresentationComponentProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationContentViewControllerProtocol.html">QMUIModalPresentationContentViewControllerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationViewControllerDelegate.html">QMUIModalPresentationViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIMoreOperationControllerDelegate.html">QMUIMoreOperationControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationTitleViewDelegate.html">QMUINavigationTitleViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIPopupMenuItemProtocol.html">QMUIPopupMenuItemProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)QMUITableViewDataSource">QMUITableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITableViewDelegate.html">QMUITableViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITextFieldDelegate.html">QMUITextFieldDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITextViewDelegate.html">QMUITextViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIToastAnimatorDelegate.html">QMUIToastAnimatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIWindowSizeMonitorProtocol.html">QMUIWindowSizeMonitorProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIZoomImageViewDelegate.html">QMUIZoomImageViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIWindowSizeMonitor.h@T@QMUIWindowSizeObserverHandler">QMUIWindowSizeObserverHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIAssetsManager.h@T@QMUIWriteAssetCompletionBlock">QMUIWriteAssetCompletionBlock</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUIImageWriteToSavedPhotosAlbumWithAlbumAssetsGroup">QMUIImageWriteToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUISaveImageAtPathToSavedPhotosAlbumWithAlbumAssetsGroup">QMUISaveImageAtPathToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUISaveVideoAtPathToSavedPhotosAlbumWithAlbumAssetsGroup">QMUISaveVideoAtPathToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInBack">QMUI_EaseInBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInBounce">QMUI_EaseInBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInCirc">QMUI_EaseInCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInCubic">QMUI_EaseInCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInElastic">QMUI_EaseInElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInExpo">QMUI_EaseInExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutBack">QMUI_EaseInOutBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutBounce">QMUI_EaseInOutBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutCirc">QMUI_EaseInOutCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutCubic">QMUI_EaseInOutCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutElastic">QMUI_EaseInOutElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutExpo">QMUI_EaseInOutExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuad">QMUI_EaseInOutQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuart">QMUI_EaseInOutQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuint">QMUI_EaseInOutQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutSine">QMUI_EaseInOutSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuad">QMUI_EaseInQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuart">QMUI_EaseInQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuint">QMUI_EaseInQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInSine">QMUI_EaseInSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutBack">QMUI_EaseOutBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutBounce">QMUI_EaseOutBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutCirc">QMUI_EaseOutCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutCubic">QMUI_EaseOutCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutElastic">QMUI_EaseOutElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutExpo">QMUI_EaseOutExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuad">QMUI_EaseOutQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuart">QMUI_EaseOutQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuint">QMUI_EaseOutQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutSine">QMUI_EaseOutSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseSpring">QMUI_EaseSpring</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_Linear">QMUI_Linear</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>QMUIDialogViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUIDialogViewController</span> <span class="o">&lt;</span>
+    <span class="n"><a href="../Protocols/QMUIModalPresentationContentViewControllerProtocol.html">QMUIModalPresentationContentViewControllerProtocol</a></span><span class="p">,</span>
+    <span class="n"><a href="../Protocols/QMUIModalPresentationComponentProtocol.html">QMUIModalPresentationComponentProtocol</a></span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>弹窗组件基类，自带<code>headerView</code>、<code>contentView</code>、<code>footerView</code>，并通过<code>addCancelButtonWithText:block:</code>、<code>addSubmitButtonWithText:block:</code>方法来添加取消、确定按钮。
+ 建议将一个自定义的UIView设置给<code>contentView</code>属性，此时弹窗将会自动帮你计算大小并布局。大小取决于你的contentView的sizeThatFits:返回值。
+ 弹窗继承自<code>QMUICommonViewController</code>，因此可直接使用self.titleView的功能来实现双行标题，具体请查看<code>QMUINavigationTitleView</code>。
+ <code>QMUIDialogViewController</code>支持以类似<code>UIAppearance</code>的方式来统一设置全局的dialog样式，例如<code>[QMUIDialogViewController appearance].headerViewHeight = 48;</code>。</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUIDialogSelectionViewController
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUIDialogTextFieldViewController
+
+</div>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)cornerRadius"></a>
+                    <a name="//apple_ref/swift/Property/cornerRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)cornerRadius">cornerRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">CGFloat</span>        <span class="n">cornerRadius</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cornerRadius</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)dialogViewMargins"></a>
+                    <a name="//apple_ref/swift/Property/dialogViewMargins" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)dialogViewMargins">dialogViewMargins</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">UIEdgeInsets</span>   <span class="n">dialogViewMargins</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">dialogViewMargins</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)maximumContentViewWidth"></a>
+                    <a name="//apple_ref/swift/Property/maximumContentViewWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)maximumContentViewWidth">maximumContentViewWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">CGFloat</span>        <span class="n">maximumContentViewWidth</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">maximumContentViewWidth</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)backgroundColor"></a>
+                    <a name="//apple_ref/swift/Property/backgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)backgroundColor">backgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIColor</span>        <span class="o">*</span><span class="n">backgroundColor</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">backgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)titleTintColor"></a>
+                    <a name="//apple_ref/swift/Property/titleTintColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)titleTintColor">titleTintColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>标题的 tintColor，当没有设置 titleLabelTextColor 和 subTitleLabelTextColor 的情况下，标题和副标题的颜色均会使用 titleTintColor，当 titleLabelTextColor 和 subTitleLabelTextColor 其中任何一个被设置了值时，则 titleTintColor 作为候选项使用（也即谁为 nil 才会用 titleTintColor 顶替，不为 nil 则不会用到 titleTintColor）。
+默认为 nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">UIColor</span> <span class="o">*</span><span class="n">titleTintColor</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">titleTintColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)titleLabelFont"></a>
+                    <a name="//apple_ref/swift/Property/titleLabelFont" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)titleLabelFont">titleLabelFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIFont</span>         <span class="o">*</span><span class="n">titleLabelFont</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">titleLabelFont</span><span class="p">:</span> <span class="kt">UIFont</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)titleLabelTextColor"></a>
+                    <a name="//apple_ref/swift/Property/titleLabelTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)titleLabelTextColor">titleLabelTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>主标题的文字颜色，当为 nil 时则会使用 titleView 的 tintColor 作为文字颜色</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">UIColor</span> <span class="o">*</span><span class="n">titleLabelTextColor</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">titleLabelTextColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)subTitleLabelFont"></a>
+                    <a name="//apple_ref/swift/Property/subTitleLabelFont" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)subTitleLabelFont">subTitleLabelFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIFont</span>         <span class="o">*</span><span class="n">subTitleLabelFont</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">subTitleLabelFont</span><span class="p">:</span> <span class="kt">UIFont</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)subTitleLabelTextColor"></a>
+                    <a name="//apple_ref/swift/Property/subTitleLabelTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)subTitleLabelTextColor">subTitleLabelTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>副标题的文字颜色，当为 nil 时则会使用 titleView 的 tintColor 作为文字颜色</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    副标题可通过 dialog.titleView.subtitle 来设置
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">UIColor</span> <span class="o">*</span><span class="n">subTitleLabelTextColor</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">subTitleLabelTextColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)headerSeparatorColor"></a>
+                    <a name="//apple_ref/swift/Property/headerSeparatorColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)headerSeparatorColor">headerSeparatorColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIColor</span>        <span class="o">*</span><span class="n">headerSeparatorColor</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">headerSeparatorColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)headerViewHeight"></a>
+                    <a name="//apple_ref/swift/Property/headerViewHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)headerViewHeight">headerViewHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">CGFloat</span>        <span class="n">headerViewHeight</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">headerViewHeight</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)headerViewBackgroundColor"></a>
+                    <a name="//apple_ref/swift/Property/headerViewBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)headerViewBackgroundColor">headerViewBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIColor</span>        <span class="o">*</span><span class="n">headerViewBackgroundColor</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">headerViewBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)contentViewMargins"></a>
+                    <a name="//apple_ref/swift/Property/contentViewMargins" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)contentViewMargins">contentViewMargins</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">UIEdgeInsets</span>   <span class="n">contentViewMargins</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">contentViewMargins</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)contentViewBackgroundColor"></a>
+                    <a name="//apple_ref/swift/Property/contentViewBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)contentViewBackgroundColor">contentViewBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIColor</span>        <span class="o">*</span><span class="n">contentViewBackgroundColor</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">contentViewBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)footerSeparatorColor"></a>
+                    <a name="//apple_ref/swift/Property/footerSeparatorColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)footerSeparatorColor">footerSeparatorColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIColor</span>        <span class="o">*</span><span class="n">footerSeparatorColor</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">footerSeparatorColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)footerViewHeight"></a>
+                    <a name="//apple_ref/swift/Property/footerViewHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)footerViewHeight">footerViewHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">CGFloat</span>        <span class="n">footerViewHeight</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">footerViewHeight</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)footerViewBackgroundColor"></a>
+                    <a name="//apple_ref/swift/Property/footerViewBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)footerViewBackgroundColor">footerViewBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIColor</span>        <span class="o">*</span><span class="n">footerViewBackgroundColor</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">footerViewBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)buttonBackgroundColor"></a>
+                    <a name="//apple_ref/swift/Property/buttonBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)buttonBackgroundColor">buttonBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIColor</span>        <span class="o">*</span><span class="n">buttonBackgroundColor</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">buttonBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)buttonHighlightedBackgroundColor"></a>
+                    <a name="//apple_ref/swift/Property/buttonHighlightedBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)buttonHighlightedBackgroundColor">buttonHighlightedBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">UIColor</span>        <span class="o">*</span><span class="n">buttonHighlightedBackgroundColor</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">buttonHighlightedBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)buttonTitleAttributes"></a>
+                    <a name="//apple_ref/swift/Property/buttonTitleAttributes" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)buttonTitleAttributes">buttonTitleAttributes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">)</span> <span class="n">NSDictionary</span><span class="o">&lt;</span><span class="n">NSAttributedStringKey</span><span class="p">,</span> <span class="n">id</span><span class="o">&gt;</span> <span class="o">*</span><span class="n">buttonTitleAttributes</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">buttonTitleAttributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSAttributedString</span><span class="o">.</span><span class="kt">Key</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)headerView"></a>
+                    <a name="//apple_ref/swift/Property/headerView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)headerView">headerView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">UIView</span> <span class="o">*</span><span class="n">headerView</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">headerView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)headerViewSeparatorLayer"></a>
+                    <a name="//apple_ref/swift/Property/headerViewSeparatorLayer" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)headerViewSeparatorLayer">headerViewSeparatorLayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">CALayer</span> <span class="o">*</span><span class="n">headerViewSeparatorLayer</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">headerViewSeparatorLayer</span><span class="p">:</span> <span class="kt">CALayer</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)contentView"></a>
+                    <a name="//apple_ref/swift/Property/contentView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)contentView">contentView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>dialog的主体内容部分，默认是一个空的白色UIView，建议设置为自己的UIView
+dialog会通过询问contentView的sizeThatFits得到当前内容的大小</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">UIView</span> <span class="o">*</span><span class="n">contentView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">contentView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)footerView"></a>
+                    <a name="//apple_ref/swift/Property/footerView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)footerView">footerView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">UIView</span> <span class="o">*</span><span class="n">footerView</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">footerView</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)footerViewSeparatorLayer"></a>
+                    <a name="//apple_ref/swift/Property/footerViewSeparatorLayer" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)footerViewSeparatorLayer">footerViewSeparatorLayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">CALayer</span> <span class="o">*</span><span class="n">footerViewSeparatorLayer</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">footerViewSeparatorLayer</span><span class="p">:</span> <span class="kt">CALayer</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)cancelButton"></a>
+                    <a name="//apple_ref/swift/Property/cancelButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)cancelButton">cancelButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n"><a href="../Classes/QMUIButton.html">QMUIButton</a></span> <span class="o">*</span><span class="n">cancelButton</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cancelButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/QMUIButton.html">QMUIButton</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)submitButton"></a>
+                    <a name="//apple_ref/swift/Property/submitButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)submitButton">submitButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n"><a href="../Classes/QMUIButton.html">QMUIButton</a></span> <span class="o">*</span><span class="n">submitButton</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">submitButton</span><span class="p">:</span> <span class="kt"><a href="../Classes/QMUIButton.html">QMUIButton</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)buttonSeparatorLayer"></a>
+                    <a name="//apple_ref/swift/Property/buttonSeparatorLayer" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)buttonSeparatorLayer">buttonSeparatorLayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">CALayer</span> <span class="o">*</span><span class="n">buttonSeparatorLayer</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">buttonSeparatorLayer</span><span class="p">:</span> <span class="kt">CALayer</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(im)addCancelButtonWithText:block:"></a>
+                    <a name="//apple_ref/swift/Method/-addCancelButtonWithText:block:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(im)addCancelButtonWithText:block:">-addCancelButtonWithText:<wbr>block:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>添加位于左下角的取消按钮，取消按钮点击时默认会自动 hide 弹窗，无需自己在 block 里调用 hide。</p>
+
+<p>同一时间只能存在一个取消按钮，所以每次添加都会移除上一个取消按钮。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">addCancelButtonWithText</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">buttonText</span>
+                          <span class="nf">block</span><span class="p">:</span>
+                              <span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="n">_Nullable</span><span class="p">)(</span>
+                                  <span class="n">__kindof</span> <span class="n">QMUIDialogViewController</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span>
+                                  <span class="n">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addCancelButton</span><span class="p">(</span><span class="n">withText</span> <span class="nv">buttonText</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="p">((</span><span class="kt">QMUIDialogViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>buttonText</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>按钮文字</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>block</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>按钮点击后的事件。取消按钮会自动 hide 弹窗，无需在 block 里调用 hide</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(im)removeCancelButton"></a>
+                    <a name="//apple_ref/swift/Method/-removeCancelButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(im)removeCancelButton">-removeCancelButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>移除当前的取消按钮</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">removeCancelButton</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeCancelButton</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(im)addSubmitButtonWithText:block:"></a>
+                    <a name="//apple_ref/swift/Method/-addSubmitButtonWithText:block:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(im)addSubmitButtonWithText:block:">-addSubmitButtonWithText:<wbr>block:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>添加位于右下角的提交按钮</p>
+
+<p>同一时间只能存在一个提交按钮，所以每次添加都会移除上一个提交按钮</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">addSubmitButtonWithText</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">buttonText</span>
+                          <span class="nf">block</span><span class="p">:</span>
+                              <span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="n">_Nullable</span><span class="p">)(</span>
+                                  <span class="n">__kindof</span> <span class="n">QMUIDialogViewController</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">))</span>
+                                  <span class="n">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addSubmitButton</span><span class="p">(</span><span class="n">withText</span> <span class="nv">buttonText</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">block</span><span class="p">:</span> <span class="p">((</span><span class="kt">QMUIDialogViewController</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>buttonText</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>按钮文字</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>block</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>按钮点击后的事件，如果需要在点击后关闭浮层，需要在 block 里自行调用 hide</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(im)removeSubmitButton"></a>
+                    <a name="//apple_ref/swift/Method/-removeSubmitButton" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(im)removeSubmitButton">-removeSubmitButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>移除提交按钮</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">removeSubmitButton</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeSubmitButton</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(py)modalPresentationViewController"></a>
+                    <a name="//apple_ref/swift/Property/modalPresentationViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(py)modalPresentationViewController">modalPresentationViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>用于展示 dialog 的 modalPresentationViewController</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n"><a href="../Classes/QMUIModalPresentationViewController.html">QMUIModalPresentationViewController</a></span> <span class="o">*</span><span class="n">modalPresentationViewController</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">modalPresentationViewController</span><span class="p">:</span> <span class="kt"><a href="../Classes/QMUIModalPresentationViewController.html">QMUIModalPresentationViewController</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(im)show"></a>
+                    <a name="//apple_ref/swift/Method/-show" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(im)show">-show</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>以动画形式显示弹窗，等同于 [self showWithAnimated:YES completion:nil]</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">show</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">show</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(im)showWithAnimated:completion:"></a>
+                    <a name="//apple_ref/swift/Method/-showWithAnimated:completion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(im)showWithAnimated:completion:">-showWithAnimated:<wbr>completion:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示弹窗</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showWithAnimated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span>
+              <span class="nf">completion</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="n">_Nullable</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showWith</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>是否用动画的形式</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>弹窗显示出来后的回调</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(im)hide"></a>
+                    <a name="//apple_ref/swift/Method/-hide" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(im)hide">-hide</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>以动画形式隐藏弹窗，等同于 [self hideWithAnimated:YES completion:nil]</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">hide</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hide</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(im)hideWithAnimated:completion:"></a>
+                    <a name="//apple_ref/swift/Method/-hideWithAnimated:completion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(im)hideWithAnimated:completion:">-hideWithAnimated:<wbr>completion:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>隐藏弹窗</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">hideWithAnimated</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">animated</span>
+              <span class="nf">completion</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="n">_Nullable</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hideWith</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animated</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>是否用动画的形式</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>弹窗隐藏后的回调</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIAppearance"></a>
+                <a name="//apple_ref/swift/Section/UIAppearance" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/UIAppearance"></a>
+                  <h3 class="section-name"><p>UIAppearance</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIDialogViewController(cm)appearance"></a>
+                    <a name="//apple_ref/swift/Method/+appearance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIDialogViewController(cm)appearance">+appearance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">appearance</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">appearance</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

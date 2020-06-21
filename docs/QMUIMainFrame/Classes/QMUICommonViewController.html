@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QMUICommonViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QMUICommonViewController" class="dashAnchor"></a>
+
+    <a title="QMUICommonViewController Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (82% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QMUICommonViewController Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICommonTableViewController.html">QMUICommonTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICommonViewController.html">QMUICommonViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationController.html">QMUINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITabBarViewController.html">QMUITabBarViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICommonTableViewControllerSectionFooterIdentifier">QMUICommonTableViewControllerSectionFooterIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICommonTableViewControllerSectionHeaderIdentifier">QMUICommonTableViewControllerSectionHeaderIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICustomNavigationBarTransitionDelegate.html">QMUICustomNavigationBarTransitionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationControllerAppearanceDelegate.html">QMUINavigationControllerAppearanceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)QMUINavigationControllerDelegate">QMUINavigationControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationControllerTransitionDelegate.html">QMUINavigationControllerTransitionDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>QMUICommonViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUICommonViewController</span> <span class="p">:</span> <span class="nc">UIViewController</span> <span class="p">{</span>
+  <span class="n">QMUIEmptyView</span> <span class="o">*</span><span class="n">_emptyView</span><span class="p">;</span>
+<span class="p">}</span></code></pre>
+
+                </div>
+              </div>
+            <p>可作为项目内所有 <code>UIViewController</code> 的基类，提供的功能包括：</p>
+
+<ol>
+<li><p>自带顶部标题控件 <code>QMUINavigationTitleView</code>，支持loading、副标题、下拉菜单，设置标题依然使用系统的 <code>setTitle:</code> 方法</p></li>
+<li><p>自带空界面控件 <code>QMUIEmptyView</code>，支持显示loading、空文案、操作按钮</p></li>
+<li><p>统一约定的常用接口，例如初始化 subview、设置顶部 <code>navigationItem</code>、底部 <code>toolbarItem</code>、响应系统的动态字体大小变化、&hellip;，从而保证相同类型的代码集中到同一个方法内，避免多人交叉维护时代码分散难以查找</p></li>
+<li><p>配合 <code><a href="../Classes/QMUINavigationController.html">QMUINavigationController</a></code> 使用时，可以得到 <code>willPopInNavigationControllerWithAnimated:</code>、<code>didPopInNavigationControllerWithAnimated:</code> 这两个时机</p></li>
+</ol>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUINavigationTitleView
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUIEmptyView
+
+</div>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController@_emptyView"></a>
+                    <a name="//apple_ref/swift/Ivar/_emptyView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController@_emptyView">_emptyView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">QMUIEmptyView</span> <span class="o">*</span><span class="n">_emptyView</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)initWithNibName:bundle:"></a>
+                    <a name="//apple_ref/swift/Method/-initWithNibName:bundle:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)initWithNibName:bundle:">-initWithNibName:<wbr>bundle:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithNibName</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">nibNameOrNil</span> <span class="nf">bundle</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSBundle</span> <span class="o">*</span><span class="p">)</span><span class="nv">nibBundleOrNil</span> <span class="n">NS_DESIGNATED_INITIALIZER</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="n">nibName</span> <span class="nv">nibNameOrNil</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">bundle</span> <span class="nv">nibBundleOrNil</span><span class="p">:</span> <span class="kt">Bundle</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/-initWithCoder:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)initWithCoder:">-initWithCoder:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithCoder</span><span class="p">:(</span><span class="n">NSCoder</span> <span class="o">*</span><span class="p">)</span><span class="nv">aDecoder</span> <span class="n">NS_DESIGNATED_INITIALIZER</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)didInitialize"></a>
+                    <a name="//apple_ref/swift/Method/-didInitialize" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)didInitialize">-didInitialize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>初始化时调用的方法，会在两个 NS_DESIGNATED_INITIALIZER 方法中被调用，所以子类如果需要同时支持两个 NS_DESIGNATED_INITIALIZER 方法，则建议把初始化时要做的事情放到这个方法里。否则仅需重写要支持的那个 NS_DESIGNATED_INITIALIZER 方法即可。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">didInitialize</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">didInitialize</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(py)titleView"></a>
+                    <a name="//apple_ref/swift/Property/titleView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(py)titleView">titleView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>QMUICommonViewController默认都会增加一个QMUINavigationTitleView的titleView，然后重写了setTitle来间接设置titleView的值。所以设置title的时候就跟系统的接口一样：self.title = xxx。</p>
+
+<p>同时，QMUINavigationTitleView提供了更多的功能，具体可以参考QMUINavigationTitleView的文档。<br/></p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUINavigationTitleView
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">QMUINavigationTitleView</span> <span class="o">*</span><span class="n">titleView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">titleView</span><span class="p">:</span> <span class="kt">QMUINavigationTitleView</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(py)supportedOrientationMask"></a>
+                    <a name="//apple_ref/swift/Property/supportedOrientationMask" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(py)supportedOrientationMask">supportedOrientationMask</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>修改当前界面要支持的横竖屏方向，默认为 SupportedOrientationMask</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">UIInterfaceOrientationMask</span> <span class="n">supportedOrientationMask</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">supportedOrientationMask</span><span class="p">:</span> <span class="kt">UIInterfaceOrientationMask</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(py)emptyView"></a>
+                    <a name="//apple_ref/swift/Property/emptyView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(py)emptyView">emptyView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>空列表控件，支持显示提示文字、loading、操作按钮，该属性懒加载</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">QMUIEmptyView</span> <span class="o">*</span><span class="n">emptyView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">emptyView</span><span class="p">:</span> <span class="kt">QMUIEmptyView</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(py)emptyViewShowing"></a>
+                    <a name="//apple_ref/swift/Property/emptyViewShowing" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(py)emptyViewShowing">emptyViewShowing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当前self.emptyView是否显示</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">unsafe_unretained</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span>
+          <span class="n">getter</span><span class="o">=</span><span class="n">isEmptyViewShowing</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">emptyViewShowing</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isEmptyViewShowing</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)showEmptyView"></a>
+                    <a name="//apple_ref/swift/Method/-showEmptyView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)showEmptyView">-showEmptyView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示emptyView
+  emptyView 的以下系列接口可以按需进行重写</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUIEmptyView
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">showEmptyView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showEmptyView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)showEmptyViewWithLoading"></a>
+                    <a name="//apple_ref/swift/Method/-showEmptyViewWithLoading" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)showEmptyViewWithLoading">-showEmptyViewWithLoading</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示loading的emptyView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">showEmptyViewWithLoading</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showEmptyViewWithLoading</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)showEmptyViewWithText:detailText:buttonTitle:buttonAction:"></a>
+                    <a name="//apple_ref/swift/Method/-showEmptyViewWithText:detailText:buttonTitle:buttonAction:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)showEmptyViewWithText:detailText:buttonTitle:buttonAction:">-showEmptyViewWithText:<wbr>detailText:<wbr>buttonTitle:<wbr>buttonAction:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示带text、detailText、button的emptyView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showEmptyViewWithText</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">text</span>
+                   <span class="nf">detailText</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">detailText</span>
+                  <span class="nf">buttonTitle</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">buttonTitle</span>
+                 <span class="nf">buttonAction</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">SEL</span><span class="p">)</span><span class="nv">action</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showEmptyView</span><span class="p">(</span><span class="n">withText</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">detailText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">buttonTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">buttonAction</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)showEmptyViewWithImage:text:detailText:buttonTitle:buttonAction:"></a>
+                    <a name="//apple_ref/swift/Method/-showEmptyViewWithImage:text:detailText:buttonTitle:buttonAction:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)showEmptyViewWithImage:text:detailText:buttonTitle:buttonAction:">-showEmptyViewWithImage:<wbr>text:<wbr>detailText:<wbr>buttonTitle:<wbr>buttonAction:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示带image、text、detailText、button的emptyView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showEmptyViewWithImage</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UIImage</span> <span class="o">*</span><span class="p">)</span><span class="nv">image</span>
+                          <span class="nf">text</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">text</span>
+                    <span class="nf">detailText</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">detailText</span>
+                   <span class="nf">buttonTitle</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">buttonTitle</span>
+                  <span class="nf">buttonAction</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">SEL</span><span class="p">)</span><span class="nv">action</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showEmptyView</span><span class="p">(</span><span class="n">with</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">detailText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">buttonTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">buttonAction</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)showEmptyViewWithLoading:image:text:detailText:buttonTitle:buttonAction:"></a>
+                    <a name="//apple_ref/swift/Method/-showEmptyViewWithLoading:image:text:detailText:buttonTitle:buttonAction:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)showEmptyViewWithLoading:image:text:detailText:buttonTitle:buttonAction:">-showEmptyViewWithLoading:<wbr>image:<wbr>text:<wbr>detailText:<wbr>buttonTitle:<wbr>buttonAction:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>显示带loading、image、text、detailText、button的emptyView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">showEmptyViewWithLoading</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">showLoading</span>
+                           <span class="nf">image</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UIImage</span> <span class="o">*</span><span class="p">)</span><span class="nv">image</span>
+                            <span class="nf">text</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">text</span>
+                      <span class="nf">detailText</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">detailText</span>
+                     <span class="nf">buttonTitle</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">buttonTitle</span>
+                    <span class="nf">buttonAction</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">SEL</span><span class="p">)</span><span class="nv">action</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">showEmptyView</span><span class="p">(</span><span class="n">withLoading</span> <span class="nv">showLoading</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">detailText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">buttonTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">buttonAction</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)hideEmptyView"></a>
+                    <a name="//apple_ref/swift/Method/-hideEmptyView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)hideEmptyView">-hideEmptyView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>隐藏emptyView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">hideEmptyView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hideEmptyView</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)layoutEmptyView"></a>
+                    <a name="//apple_ref/swift/Method/-layoutEmptyView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)layoutEmptyView">-layoutEmptyView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>布局emptyView，如果emptyView没有被初始化或者没被添加到界面上，则直接忽略掉。</p>
+
+<p>如果有特殊的情况，子类可以重写，实现自己的样式</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">layoutEmptyView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">layoutEmptyView</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>YES表示成功进行一次布局，NO表示本次调用并没有进行布局操作（例如emptyView还没被初始化）</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/QMUISubclassingHooks"></a>
+                <a name="//apple_ref/swift/Section/QMUISubclassingHooks" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/QMUISubclassingHooks"></a>
+                  <h3 class="section-name"><p>QMUISubclassingHooks</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)initSubviews"></a>
+                    <a name="//apple_ref/swift/Method/-initSubviews" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)initSubviews">-initSubviews</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>负责初始化和设置controller里面的view，也就是self.view的subView。目的在于分类代码，所以与view初始化的相关代码都写在这里。</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    initSubviews只负责subviews的init，不负责布局。布局相关的代码应该写在 <b>viewDidLayoutSubviews</b>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">initSubviews</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">initSubviews</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)setupNavigationItems"></a>
+                    <a name="//apple_ref/swift/Method/-setupNavigationItems" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)setupNavigationItems">-setupNavigationItems</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>负责设置和更新navigationItem，包括title、leftBarButtonItem、rightBarButtonItem。viewWillAppear 里面会自动调用，业务也可以在需要的时候自行调用。目的在于分类代码，所有与navigationItem相关的代码都写在这里。在需要修改navigationItem的时候都统一调用这个接口。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">setupNavigationItems</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setupNavigationItems</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)setupToolbarItems"></a>
+                    <a name="//apple_ref/swift/Method/-setupToolbarItems" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)setupToolbarItems">-setupToolbarItems</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>负责设置和更新toolbarItem。在viewWillAppear里面自动调用（因为toolbar是navigationController的，是每个界面公用的，所以必须在每个界面的viewWillAppear时更新，不能放在viewDidLoad里），允许手动调用。目的在于分类代码，所有与toolbarItem相关的代码都写在这里。在需要修改toolbarItem的时候都只调用这个接口。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">setupToolbarItems</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setupToolbarItems</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)contentSizeCategoryDidChanged:"></a>
+                    <a name="//apple_ref/swift/Method/-contentSizeCategoryDidChanged:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)contentSizeCategoryDidChanged:">-contentSizeCategoryDidChanged:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>动态字体的回调函数。</p>
+
+<p>交给子类重写，当系统字体发生变化的时候，会调用这个方法，一些font的设置或者reloadData可以放在里面</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">contentSizeCategoryDidChanged</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSNotification</span> <span class="o">*</span><span class="p">)</span><span class="nv">notification</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">contentSizeCategoryDidChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>notification</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>test</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/QMUINavigationController"></a>
+                <a name="//apple_ref/swift/Section/QMUINavigationController" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/QMUINavigationController"></a>
+                  <h3 class="section-name"><p>QMUINavigationController</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)updateNavigationBarAppearance"></a>
+                    <a name="//apple_ref/swift/Method/-updateNavigationBarAppearance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)updateNavigationBarAppearance">-updateNavigationBarAppearance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>从 QMUINavigationControllerAppearanceDelegate 系列接口获取当前界面希望的导航栏样式并设置到导航栏上</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">updateNavigationBarAppearance</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateNavigationBarAppearance</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/QMUIKeyboard"></a>
+                <a name="//apple_ref/swift/Section/QMUIKeyboard" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/QMUIKeyboard"></a>
+                  <h3 class="section-name"><p>QMUIKeyboard</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(py)hideKeyboardTapGestureRecognizer"></a>
+                    <a name="//apple_ref/swift/Property/hideKeyboardTapGestureRecognizer" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(py)hideKeyboardTapGestureRecognizer">hideKeyboardTapGestureRecognizer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>在 viewDidLoad 内初始化，并且 gestureRecognizerShouldBegin: 必定返回 NO。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">UITapGestureRecognizer</span> <span class="o">*</span><span class="n">hideKeyboardTapGestureRecognizer</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">hideKeyboardTapGestureRecognizer</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(py)hideKeyboardManager"></a>
+                    <a name="//apple_ref/swift/Property/hideKeyboardManager" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(py)hideKeyboardManager">hideKeyboardManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nullable</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">QMUIKeyboardManager</span> <span class="o">*</span><span class="n">hideKeyboardManager</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">hideKeyboardManager</span><span class="p">:</span> <span class="kt">UnsafeMutablePointer</span><span class="o">&lt;</span><span class="kt">Int32</span><span class="o">&gt;</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController(im)shouldHideKeyboardWhenTouchInView:"></a>
+                    <a name="//apple_ref/swift/Method/-shouldHideKeyboardWhenTouchInView:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController(im)shouldHideKeyboardWhenTouchInView:">-shouldHideKeyboardWhenTouchInView:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当用户点击界面上某个 view 时，如果此时键盘处于升起状态，则可通过重写这个方法并返回一个 YES 来达到“点击空白区域自动降下键盘”的需求。默认返回 NO，也即不处理键盘。</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    注意如果被点击的 view 本身消耗了事件（iOS 11 下测试得到这种类型的所有系统的 view 仅有 UIButton 和 UISwitch），则这个方法并不会被触发。
+
+</div><div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    有可能参数传进去的 view 是某个 subview 的 subview，所以建议用 isDescendantOfView: 来判断是否点到了某个目标 subview
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">shouldHideKeyboardWhenTouchInView</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">view</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">shouldHideKeyboardWhenTouch</span><span class="p">(</span><span class="k">in</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

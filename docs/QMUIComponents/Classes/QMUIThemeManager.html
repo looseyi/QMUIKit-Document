@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QMUIThemeManager Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QMUIThemeManager" class="dashAnchor"></a>
+
+    <a title="QMUIThemeManager Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (51% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QMUIThemeManager Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/CAAnimation%28QMUI%29.html">CAAnimation(QMUI)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/CALayer%28QMUIViewAnimation%29.html">CALayer(QMUIViewAnimation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIAppearnace%29.html">NSObject(QMUIAppearnace)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIMultipleDelegates%29.html">NSObject(QMUIMultipleDelegates)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIWindowSizeMonitor%29.html">NSObject(QMUIWindowSizeMonitor)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/PHPhotoLibrary%28QMUI%29.html">PHPhotoLibrary(QMUI)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIBarButtonItem%28QMUINavigationButton%29.html">UIBarButtonItem(QMUINavigationButton)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIBarItem%28QMUIBadge%29.html">UIBarItem(QMUIBadge)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUICellHeightIndexPathCache%29.html">UICollectionView(QMUICellHeightIndexPathCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUICellSizeKeyCache%29.html">UICollectionView(QMUICellSizeKeyCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUIIndexPathHeightCacheInvalidation%29.html">UICollectionView(QMUIIndexPathHeightCacheInvalidation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUIKeyedHeightCache%29.html">UICollectionView(QMUIKeyedHeightCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUILayoutCell%29.html">UICollectionView(QMUILayoutCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIColor%28QMUITheme%29.html">UIColor(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIImage%28QMUITheme%29.html">UIImage(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UINavigationBar%28Transition%29.html">UINavigationBar(Transition)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIResponder%28KeyboardManager%29.html">UIResponder(KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUICellHeightIndexPathCache%29.html">UITableView(QMUICellHeightIndexPathCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUICellHeightKeyCache%29.html">UITableView(QMUICellHeightKeyCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUIIndexPathHeightCacheInvalidation%29.html">UITableView(QMUIIndexPathHeightCacheInvalidation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUIKeyedHeightCache%29.html">UITableView(QMUIKeyedHeightCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUILayoutCell%29.html">UITableView(QMUILayoutCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUI_StaticCell%29.html">UITableView(QMUI_StaticCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITextField%28QMUI_KeyboardManager%29.html">UITextField(QMUI_KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITextView%28QMUI_KeyboardManager%29.html">UITextView(QMUI_KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIView%28QMUITheme%29.html">UIView(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIView%28QMUITheme_Private%29.html">UIView(QMUITheme_Private)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIViewController%28QMUIModalPresentationViewController%29.html">UIViewController(QMUIModalPresentationViewController)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIViewController%28QMUITheme%29.html">UIViewController(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIVisualEffect%28QMUITheme%29.html">UIVisualEffect(QMUITheme)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlbumTableViewCell.html">QMUIAlbumTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlbumViewController.html">QMUIAlbumViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlertAction.html">QMUIAlertAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlertController.html">QMUIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAnimationHelper.html">QMUIAnimationHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAppearance.html">QMUIAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAsset.html">QMUIAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAssetsGroup.html">QMUIAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAssetsManager.html">QMUIAssetsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIButton.html">QMUIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightCache.html">QMUICellHeightCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightIndexPathCache.html">QMUICellHeightIndexPathCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightKeyCache.html">QMUICellHeightKeyCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellSizeKeyCache.html">QMUICellSizeKeyCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICollectionViewPagingLayout.html">QMUICollectionViewPagingLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConsoleToolbar.html">QMUIConsoleToolbar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConsoleViewController.html">QMUIConsoleViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogSelectionViewController.html">QMUIDialogSelectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogTextFieldViewController.html">QMUIDialogTextFieldViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogViewController.html">QMUIDialogViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDisplayLinkAnimation.html">QMUIDisplayLinkAnimation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotion.html">QMUIEmotion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotionInputManager.html">QMUIEmotionInputManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotionView.html">QMUIEmotionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmptyView.html">QMUIEmptyView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIFillButton.html">QMUIFillButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIFloatLayoutView.html">QMUIFloatLayoutView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIGhostButton.html">QMUIGhostButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIGridView.html">QMUIGridView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerCollectionViewCell.html">QMUIImagePickerCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerHelper.html">QMUIImagePickerHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerPreviewViewController.html">QMUIImagePickerPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerViewController.html">QMUIImagePickerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewView.html">QMUIImagePreviewView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewViewController.html">QMUIImagePreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewViewTransitionAnimator.html">QMUIImagePreviewViewTransitionAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIKeyboardManager.html">QMUIKeyboardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILabel.html">QMUILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILinkButton.html">QMUILinkButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogItem.html">QMUILogItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogManagerViewController.html">QMUILogManagerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogNameManager.html">QMUILogNameManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogger.html">QMUILogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMarqueeLabel.html">QMUIMarqueeLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIModalPresentationViewController.html">QMUIModalPresentationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUIModalPresentationWindow">QMUIModalPresentationWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMoreOperationController.html">QMUIMoreOperationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMoreOperationItemView.html">QMUIMoreOperationItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMultipleDelegates.html">QMUIMultipleDelegates</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationBarScrollingAnimator.html">QMUINavigationBarScrollingAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationBarScrollingSnapAnimator.html">QMUINavigationBarScrollingSnapAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationButton.html">QMUINavigationButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationTitleView.html">QMUINavigationTitleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIOrderedDictionary.html">QMUIOrderedDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPieProgressView.html">QMUIPieProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupContainerView.html">QMUIPopupContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUIPopupMenuBaseItem">QMUIPopupMenuBaseItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupMenuButtonItem.html">QMUIPopupMenuButtonItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupMenuView.html">QMUIPopupMenuView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIScrollAnimator.html">QMUIScrollAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUISearchBar">QMUISearchBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUISegmentedControl.html">QMUISegmentedControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUISlider.html">QMUISlider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIStaticTableViewCellData.html">QMUIStaticTableViewCellData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIStaticTableViewCellDataSource.html">QMUIStaticTableViewCellDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableView.html">QMUITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableViewCell.html">QMUITableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableViewHeaderFooterView.html">QMUITableViewHeaderFooterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUITestView">QMUITestView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUITestWindow">QMUITestWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITextField.html">QMUITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITextView.html">QMUITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeColor.html">QMUIThemeColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeImage.html">QMUIThemeImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeManager.html">QMUIThemeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeManagerCenter.html">QMUIThemeManagerCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeVisualEffect.html">QMUIThemeVisualEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITips.html">QMUITips</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastAnimator.html">QMUIToastAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastBackgroundView.html">QMUIToastBackgroundView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastContentView.html">QMUIToastContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastView.html">QMUIToastView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToolbarButton.html">QMUIToolbarButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIVisualEffectView.html">QMUIVisualEffectView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIWeakObjectContainer.html">QMUIWeakObjectContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIZoomImageView.html">QMUIZoomImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIZoomImageViewVideoToolbar.html">QMUIZoomImageViewVideoToolbar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICollectionViewPagingLayoutRotationRadiusAutomatic">QMUICollectionViewPagingLayoutRotationRadiusAutomatic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIDialogSelectionViewControllerSelectedItemIndexNone">QMUIDialogSelectionViewControllerSelectedItemIndexNone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIFillButtonCornerRadiusAdjustsBounds">QMUIFillButtonCornerRadiusAdjustsBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIFloatLayoutViewAutomaticalMaximumItemSize">QMUIFloatLayoutViewAutomaticalMaximumItemSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIGhostButtonCornerRadiusAdjustsBounds">QMUIGhostButtonCornerRadiusAdjustsBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIImagePreviewViewControllerCornerRadiusAutomaticDimension">QMUIImagePreviewViewControllerCornerRadiusAutomaticDimension</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUILoggerAllNamesKeyInUserDefaults">QMUILoggerAllNamesKeyInUserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIThemeDidChangeNotification">QMUIThemeDidChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIThemeManagerNameDefault">QMUIThemeManagerNameDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUITipsAutomaticallyHideToastSeconds">QMUITipsAutomaticallyHideToastSeconds</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlbumContentType.html">QMUIAlbumContentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlbumSortType.html">QMUIAlbumSortType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlertActionStyle.html">QMUIAlertActionStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlertControllerStyle.html">QMUIAlertControllerStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAnimationEasings.html">QMUIAnimationEasings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetAuthorizationStatus.html">QMUIAssetAuthorizationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetDownloadStatus.html">QMUIAssetDownloadStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetSubType.html">QMUIAssetSubType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetType.html">QMUIAssetType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIButtonImagePosition.html">QMUIButtonImagePosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUICollectionViewPagingLayoutStyle.html">QMUICollectionViewPagingLayoutStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIFillButtonColor.html">QMUIFillButtonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIGhostButtonColor.html">QMUIGhostButtonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIImagePreviewMediaType.html">QMUIImagePreviewMediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIImagePreviewViewControllerTransitioningStyle.html">QMUIImagePreviewViewControllerTransitioningStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUILogLevel.html">QMUILogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIModalPresentationAnimationStyle.html">QMUIModalPresentationAnimationStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationButtonType.html">QMUINavigationButtonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationTitleViewAccessoryType.html">QMUINavigationTitleViewAccessoryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationTitleViewStyle.html">QMUINavigationTitleViewStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIPieProgressViewShape.html">QMUIPieProgressViewShape</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIPopupContainerViewLayoutDirection.html">QMUIPopupContainerViewLayoutDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIStaticTableViewCellAccessoryType.html">QMUIStaticTableViewCellAccessoryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUITableViewHeaderFooterViewType.html">QMUITableViewHeaderFooterViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToastAnimationType.html">QMUIToastAnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToastViewPosition.html">QMUIToastViewPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToolbarButtonType.html">QMUIToolbarButtonType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIAlbumViewControllerDelegate.html">QMUIAlbumViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIAlertControllerDelegate.html">QMUIAlertControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellHeightCache_UITableViewDataSource.html">QMUICellHeightCache_UITableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellHeightKeyCache_UITableViewDelegate.html">QMUICellHeightKeyCache_UITableViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellSizeKeyCache_UICollectionViewDelegate.html">QMUICellSizeKeyCache_UICollectionViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIDynamicEffectProtocol.html">QMUIDynamicEffectProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIDynamicImageProtocol.html">QMUIDynamicImageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIEmptyViewLoadingViewProtocol.html">QMUIEmptyViewLoadingViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePickerPreviewViewControllerDelegate.html">QMUIImagePickerPreviewViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePickerViewControllerDelegate.html">QMUIImagePickerViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePreviewViewDelegate.html">QMUIImagePreviewViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIKeyboardManagerDelegate.html">QMUIKeyboardManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUILoggerDelegate.html">QMUILoggerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationComponentProtocol.html">QMUIModalPresentationComponentProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationContentViewControllerProtocol.html">QMUIModalPresentationContentViewControllerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationViewControllerDelegate.html">QMUIModalPresentationViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIMoreOperationControllerDelegate.html">QMUIMoreOperationControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationTitleViewDelegate.html">QMUINavigationTitleViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIPopupMenuItemProtocol.html">QMUIPopupMenuItemProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)QMUITableViewDataSource">QMUITableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITableViewDelegate.html">QMUITableViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITextFieldDelegate.html">QMUITextFieldDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITextViewDelegate.html">QMUITextViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIToastAnimatorDelegate.html">QMUIToastAnimatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIWindowSizeMonitorProtocol.html">QMUIWindowSizeMonitorProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIZoomImageViewDelegate.html">QMUIZoomImageViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIWindowSizeMonitor.h@T@QMUIWindowSizeObserverHandler">QMUIWindowSizeObserverHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIAssetsManager.h@T@QMUIWriteAssetCompletionBlock">QMUIWriteAssetCompletionBlock</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUIImageWriteToSavedPhotosAlbumWithAlbumAssetsGroup">QMUIImageWriteToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUISaveImageAtPathToSavedPhotosAlbumWithAlbumAssetsGroup">QMUISaveImageAtPathToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUISaveVideoAtPathToSavedPhotosAlbumWithAlbumAssetsGroup">QMUISaveVideoAtPathToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInBack">QMUI_EaseInBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInBounce">QMUI_EaseInBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInCirc">QMUI_EaseInCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInCubic">QMUI_EaseInCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInElastic">QMUI_EaseInElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInExpo">QMUI_EaseInExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutBack">QMUI_EaseInOutBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutBounce">QMUI_EaseInOutBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutCirc">QMUI_EaseInOutCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutCubic">QMUI_EaseInOutCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutElastic">QMUI_EaseInOutElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutExpo">QMUI_EaseInOutExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuad">QMUI_EaseInOutQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuart">QMUI_EaseInOutQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuint">QMUI_EaseInOutQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutSine">QMUI_EaseInOutSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuad">QMUI_EaseInQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuart">QMUI_EaseInQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuint">QMUI_EaseInQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInSine">QMUI_EaseInSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutBack">QMUI_EaseOutBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutBounce">QMUI_EaseOutBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutCirc">QMUI_EaseOutCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutCubic">QMUI_EaseOutCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutElastic">QMUI_EaseOutElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutExpo">QMUI_EaseOutExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuad">QMUI_EaseOutQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuart">QMUI_EaseOutQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuint">QMUI_EaseOutQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutSine">QMUI_EaseOutSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseSpring">QMUI_EaseSpring</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_Linear">QMUI_Linear</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>QMUIThemeManager</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUIThemeManager</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>主题管理组件，可添加自定义的主题对象，并为每个对象指定一个专门的 identifier，当主题发生变化时，会遍历 UIViewController 和 UIView，调用每个 viewController 和每个可视 view 的 qmui_themeDidChangeByManager:identifier:theme: 方法，在里面由业务去自行根据当前主题设置不同的外观（color、image 等）。借助 QMUIThemeManagerCenter，可实现一个项目里同时存在多个维度的主题（例如全局维度存在 light/dark 2套主题，局部的某个界面存在 white/yellow/green/black 4套主题），各自互不影响，如果业务项目只需要一个维度的主题，则全都使用 QMUIThemeManagerCenter.defaultThemeManager 来获取 QMUIThemeManager 即可，如果业务有多维度主题的需求，可使用 +[QMUIThemeManagerCenter themeManagerWithName:] 生成不同的 QMUIThemeManager。</p>
+
+<p>详细文档请查看 GitHub Wiki
+@link <a href="https://github.com/Tencent/QMUI_iOS/wiki/%E4%BD%BF%E7%94%A8-QMUITheme-%E5%AE%9E%E7%8E%B0%E6%8D%A2%E8%82%A4%E5%B9%B6%E9%80%82%E9%85%8D-iOS-13-Dark-Mode">https://github.com/Tencent/QMUI_iOS/wiki/%E4%BD%BF%E7%94%A8-QMUITheme-%E5%AE%9E%E7%8E%B0%E6%8D%A2%E8%82%A4%E5%B9%B6%E9%80%82%E9%85%8D-iOS-13-Dark-Mode</a></p>
+
+<p>关于 theme 的概念：</p>
+
+<ol>
+<li>一个主题包含两个元素：identifier 表示主题的标志/名字，不允许重复；theme 代表主题对象本身，可以是任意的 NSObject 类型，只要业务自行规定即可。对于任意主题而言，identifier 和 theme 都不能为空，也不能重复。</li>
+<li>主题的增删需要通过 QMUIThemeManager 的 addThemeIdentifier:theme:、removeThemeIdentifier:/removeTheme: 来实现。</li>
+<li>可通过 QMUIThemeManager 的 themeIdentifiers、themes 属性来获取当前已注册的所有主题。</li>
+<li>可通过修改 QMUIThemeManager 的 currentThemeIdentifier、currentTheme 属性来切换当前 App 的主题，修改这两个属性的其中一个属性，内部都会同时自动修改另外一个属性，以保证两者匹配。</li>
+</ol>
+
+<p>关于 iOS 13 新增的 Dark Mode：</p>
+
+<ol>
+<li>如果 App 只需要在 iOS 13 里才切换深色的主题，直接使用系统的方式去实现即可，无需用到 QMUIThemeManager 的任何功能，QMUIThemeManager 适用于 App 需要在全 iOS 版本里都支持相同的皮肤切换（也即 iOS 13 下系统的 Dark Mode 也只是被视为你业务的某个皮肤）。在 iOS 13 下，QMUIThemeManager 的作用只是帮你监听系统 Dark Mode 的切换，并将系统的样式转换成业务对应的主题名，后续的实际工作其实跟 iOS 12 下切换主题是一样的。</li>
+<li>如果要令 QMUIThemeManager 自动响应 iOS 13 的 Dark Mode，请先为 identifierForTrait 赋值，在内部根据 trait.userInterfaceStyle 的值返回对应的主题 identifier，再把 respondsSystemStyleAutomatically 改为 YES 即可。</li>
+</ol>
+
+<p>关于 App 界面响应主题变化的方式：
+组件支持三种层面来响应主题变化：</p>
+
+<ol>
+<li>UIView 层面，如果是颜色（UIColor/CGColor）变化，请使用 [UIColor qmui_colorWithThemeProvider:] 方法来创建 UIColor，以及获取该 color 对应的 CGColor，建议每个颜色对应一个 @property，然后使用 [UIView qmui_registerThemeColorProperties:] 来注册这些需要在主题变化时自动刷新样式的 property，这样的好处是对设置颜色的时机没有要求，在 init 时就设置也没问题，不需要因为实现换肤而大量修改业务原有代码。如果是非 NSObject 的变化（例如  enum/struct 或者业务代码逻辑），可重写 [UIView qmui_themeDidChangeByManager:identifier:theme:]，在里面根据当前主题做代码逻辑上的区分。</li>
+<li>UIViewController 层面，仅支持重写 [UIViewController qmui_themeDidChangeByManager:identifier:theme:] 方法来实现换肤。</li>
+<li>NSObject 层面，可通过监听 QMUIThemeDidChangeNotification 通知，在回调里处理主题切换事件（例如将当前选择的主题持久化记录下来，下次 App 启动直接应用）。</li>
+</ol>
+
+<p>标准场景下的使用流程：</p>
+
+<ol>
+<li>App 启动时，按需初始化 theme 对象并注册到 QMUIThemeManager 里。</li>
+<li>根据当前用户的选择记录（例如 NSUserDefaults），通过 currentThemeIdentifier/currentTheme 指定当前的主题。</li>
+<li>对需要响应主题变化的界面，检查其中的所有 UIColor、CGColor 的代码，将颜色换成使用 [UIColor qmui_colorWithThemeProvider:] 创建，如果该颜色对应一个 property，则使用 [UIView qmui_registerThemeColorProperties:] 注册这个 property，如果不对应 property，则请在 qmui_themeDidChangeByManager:identifier:theme: 里重新设置该颜色。</li>
+<li>通过 QMUIThemeDidChangeNotification 监听主题的变化，将其持久化存储以便下次启动时应用。</li>
+<li>若需要响应 iOS 13 的 Dark Mode，参考 respondsSystemStyleAutomatically、identifierForTrait 的注释。</li>
+</ol>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(cm)sharedInstance"></a>
+                    <a name="//apple_ref/swift/Method/+sharedInstance" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)QMUIThemeManager(cm)sharedInstance">+sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>QMUIThemeManager 不再主动初始化，请使用 QMUIThemeManagerCenter.defaultThemeManager 或者 -[QMUIThemeManagerCenter themeManagerWithName:] 获取</p>
+
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">sharedInstance</span> <span class="nf">DEPRECATED_MSG_ATTRIBUTE</span><span class="p">(</span><span class="s">"QMUIThemeManager 不再主动初始化，请使用 QMUIThemeManagerCenter.defaultThemeManager 或者 -[QMUIThemeManagerCenter themeManagerWithName:] 获取"</span><span class="p">);</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sharedInstance</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(im)initWithCoder:"></a>
+                    <a name="//apple_ref/swift/Method/-initWithCoder:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)QMUIThemeManager(im)initWithCoder:">-initWithCoder:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithCoder</span><span class="p">:(</span><span class="n">NSCoder</span> <span class="o">*</span><span class="p">)</span><span class="nv">coder</span> <span class="n">NS_UNAVAILABLE</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(im)init"></a>
+                    <a name="//apple_ref/swift/Method/-init" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)QMUIThemeManager(im)init">-init</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">init</span> <span class="n">NS_UNAVAILABLE</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(cm)new"></a>
+                    <a name="//apple_ref/swift/Method/+new" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)QMUIThemeManager(cm)new">+new</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">new</span> <span class="n">NS_UNAVAILABLE</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)name"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)name">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="n">name</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@NSCopying</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)respondsSystemStyleAutomatically"></a>
+                    <a name="//apple_ref/swift/Property/respondsSystemStyleAutomatically" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)respondsSystemStyleAutomatically">respondsSystemStyleAutomatically</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>自动响应 iOS 13 里的 Dark Mode 切换，默认为 NO。当为 YES 时，能自动监听系统 Dark Mode 的切换，并通过询问 identifierForTrait 来将当前的系统界面样式转换成业务定义的主题，剩下的事情就跟 iOS 12 及以下的系统相同了。</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    当设置这个属性为 YES 之前，请先为 identifierForTrait 赋值。
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">respondsSystemStyleAutomatically</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">respondsSystemStyleAutomatically</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)identifierForTrait"></a>
+                    <a name="//apple_ref/swift/Property/identifierForTrait" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)identifierForTrait">identifierForTrait</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当 respondsSystemStyleAutomatically 为 YES 并且系统样式发生变化时，会通过这个 block 将当前的 UITraitCollection.userInterfaceStyle 转换成对应的业务主题 identifier</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="n">_Nonnull</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">UITraitCollection</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span> <span class="n">identifierForTrait</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">identifierForTrait</span><span class="p">:</span> <span class="p">((</span><span class="kt">UITraitCollection</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)themeIdentifiers"></a>
+                    <a name="//apple_ref/swift/Property/themeIdentifiers" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)themeIdentifiers">themeIdentifiers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取所有主题的 identifier</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">themeIdentifiers</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">themeIdentifiers</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)themes"></a>
+                    <a name="//apple_ref/swift/Property/themes" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)themes">themes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取所有主题的对象</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">readonly</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">NSArray</span><span class="o">&lt;</span><span class="n">__kindof</span> <span class="n">NSObject</span> <span class="o">*&gt;</span> <span class="o">*</span><span class="n">themes</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">themes</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSObject</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)currentThemeIdentifier"></a>
+                    <a name="//apple_ref/swift/Property/currentThemeIdentifier" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)currentThemeIdentifier">currentThemeIdentifier</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前主题的 identifier</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="n">currentThemeIdentifier</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@NSCopying</span> <span class="k">var</span> <span class="nv">currentThemeIdentifier</span><span class="p">:</span> <span class="p">(</span><span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)currentTheme"></a>
+                    <a name="//apple_ref/swift/Property/currentTheme" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)currentTheme">currentTheme</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前主题的对象</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">__kindof</span> <span class="n">NSObject</span> <span class="o">*</span><span class="n">currentTheme</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">currentTheme</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)themeGenerator"></a>
+                    <a name="//apple_ref/swift/Property/themeGenerator" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)themeGenerator">themeGenerator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当切换 currentThemeIdentifier 时如果遇到该 identifier 尚未被注册，则会尝试通过这个 block 来获取对应的主题对象并添加到 QMUIThemeManager 里</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">__kindof</span> <span class="n">NSObject</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="p">(</span><span class="o">^</span><span class="p">)</span> <span class="p">(</span><span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span> <span class="n">themeGenerator</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">themeGenerator</span><span class="p">:</span> <span class="p">((</span><span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSObject</span><span class="p">?)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(py)themeIdentifierGenerator"></a>
+                    <a name="//apple_ref/swift/Property/themeIdentifierGenerator" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(py)themeIdentifierGenerator">themeIdentifierGenerator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>当切换 currentTheme 时如果遇到该 theme 尚未被注册，则会尝试通过这个 block 来获取对应的 identifier 并添加到 QMUIThemeManager 里</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="n">_Nullable</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">__kindof</span> <span class="n">NSObject</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span> <span class="n">themeIdentifierGenerator</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">themeIdentifierGenerator</span><span class="p">:</span> <span class="p">((</span><span class="kt">NSObject</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">)?)?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(im)addThemeIdentifier:theme:"></a>
+                    <a name="//apple_ref/swift/Method/-addThemeIdentifier:theme:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(im)addThemeIdentifier:theme:">-addThemeIdentifier:<wbr>theme:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>添加主题，不允许重复添加</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">addThemeIdentifier</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">identifier</span>
+                     <span class="nf">theme</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">__kindof</span> <span class="n">NSObject</span> <span class="o">*</span><span class="p">)</span><span class="nv">theme</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addThemeIdentifier</span><span class="p">(</span><span class="n">_</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">,</span> <span class="nv">theme</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>identifier</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>主题的 identifier，一般用 NSString 即可，不允许重复</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>theme</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>主题的对象，允许任意 class 类型</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(im)removeThemeIdentifier:"></a>
+                    <a name="//apple_ref/swift/Method/-removeThemeIdentifier:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(im)removeThemeIdentifier:">-removeThemeIdentifier:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>移除指定 identifier 的主题</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">removeThemeIdentifier</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">identifier</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeThemeIdentifier</span><span class="p">(</span><span class="n">_</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>identifier</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>要移除的 identifier</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(im)removeTheme:"></a>
+                    <a name="//apple_ref/swift/Method/-removeTheme:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(im)removeTheme:">-removeTheme:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>移除指定的主题对象</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">removeTheme</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">__kindof</span> <span class="n">NSObject</span> <span class="o">*</span><span class="p">)</span><span class="nv">theme</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeTheme</span><span class="p">(</span><span class="n">_</span> <span class="nv">theme</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>theme</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>要移除的主题对象</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(im)themeForIdentifier:"></a>
+                    <a name="//apple_ref/swift/Method/-themeForIdentifier:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(im)themeForIdentifier:">-themeForIdentifier:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>根据指定的 identifier 获取对应的主题对象</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">__kindof</span> <span class="n">NSObject</span> <span class="o">*</span><span class="p">)</span><span class="nf">themeForIdentifier</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nv">identifier</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">theme</span><span class="p">(</span><span class="n">forIdentifier</span> <span class="nv">identifier</span><span class="p">:</span> <span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>identifier</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>主题的 identifier</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>identifier 对应的主题对象</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIThemeManager(im)identifierForTheme:"></a>
+                    <a name="//apple_ref/swift/Method/-identifierForTheme:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIThemeManager(im)identifierForTheme:">-identifierForTheme:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取主题对应的 identifier</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">__kindof</span> <span class="n">NSObject</span><span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span> <span class="o">*</span><span class="p">)</span><span class="nf">identifierForTheme</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nonnull</span> <span class="n">__kindof</span> <span class="n">NSObject</span> <span class="o">*</span><span class="p">)</span><span class="nv">theme</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">identifier</span><span class="p">(</span><span class="n">forTheme</span> <span class="nv">theme</span><span class="p">:</span> <span class="kt">NSObject</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt">NSCopying</span> <span class="o">&amp;</span> <span class="kt">NSObjectProtocol</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>theme</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>主题对象</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>主题的 identifier</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

@@ -1,0 +1,173 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonTableViewController.h",
+      "line": 21,
+      "symbol": "QMUICommonTableViewControllerSectionHeaderIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonTableViewController.h",
+      "line": 22,
+      "symbol": "QMUICommonTableViewControllerSectionFooterIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonTableViewController.h",
+      "line": 41,
+      "symbol": "QMUICommonTableViewController.-initWithStyle:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonTableViewController.h",
+      "line": 42,
+      "symbol": "QMUICommonTableViewController.-initWithCoder:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonTableViewController.h",
+      "line": 55,
+      "symbol": "QMUICommonTableViewController.-hideTableHeaderViewInitialIfCanWithAnimated:force:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonTableViewController.h",
+      "line": 60,
+      "symbol": "QMUICommonTableViewController(QMUISubclassingHooks)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 41,
+      "symbol": "QMUICommonViewController._emptyView",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.ivar",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 41,
+      "symbol": "QMUICommonViewController._emptyView",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.ivar",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 44,
+      "symbol": "QMUICommonViewController.-initWithNibName:bundle:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 44,
+      "symbol": "QMUICommonViewController.-initWithNibName:bundle:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 45,
+      "symbol": "QMUICommonViewController.-initWithCoder:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 45,
+      "symbol": "QMUICommonViewController.-initWithCoder:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 130,
+      "symbol": "QMUICommonViewController(QMUISubclassingHooks)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 130,
+      "symbol": "QMUICommonViewController(QMUISubclassingHooks)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 160,
+      "symbol": "QMUICommonViewController(QMUINavigationController)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 160,
+      "symbol": "QMUICommonViewController(QMUINavigationController)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 180,
+      "symbol": "QMUICommonViewController(QMUIKeyboard).hideKeyboardManager",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUICommonViewController.h",
+      "line": 180,
+      "symbol": "QMUICommonViewController.hideKeyboardManager",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUINavigationController.h",
+      "line": 19,
+      "symbol": "QMUINavigationController",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUINavigationController.h",
+      "line": 19,
+      "symbol": "QMUINavigationController",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUINavigationController.h",
+      "line": 19,
+      "symbol": "QMUINavigationController",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUINavigationController.h",
+      "line": 28,
+      "symbol": "QMUINavigationController(UISubclassingHooks)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUINavigationController.h",
+      "line": 28,
+      "symbol": "QMUINavigationController(UISubclassingHooks)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/QMUIMainFrame/QMUINavigationController.h",
+      "line": 28,
+      "symbol": "QMUINavigationController(UISubclassingHooks)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods"
+}

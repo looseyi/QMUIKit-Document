@@ -1,0 +1,999 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 20,
+      "symbol": "QMUICornerMask",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 20,
+      "symbol": "QMUICornerMask",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 21,
+      "symbol": "QMUICornerMask.QMUILayerMinXMinYCorner",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 22,
+      "symbol": "QMUICornerMask.QMUILayerMaxXMinYCorner",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 23,
+      "symbol": "QMUICornerMask.QMUILayerMinXMaxYCorner",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 24,
+      "symbol": "QMUICornerMask.QMUILayerMaxXMaxYCorner",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 27,
+      "symbol": "CALayer(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 96,
+      "symbol": "CALayer(QMUI).+qmui_separatorDashLayerInVertical",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/CALayer+QMUI.h",
+      "line": 110,
+      "symbol": "CALayer(QMUI_DynamicColor)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSArray+QMUI.h",
+      "line": 20,
+      "symbol": "NSArray(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSAttributedString+QMUI.h",
+      "line": 19,
+      "symbol": "NSAttributedString(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSAttributedString+QMUI.h",
+      "line": 50,
+      "symbol": "NSMutableAttributedString(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSCharacterSet+QMUI.h",
+      "line": 18,
+      "symbol": "NSCharacterSet(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSMethodSignature+QMUI.h",
+      "line": 19,
+      "symbol": "NSMethodSignature(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSNumber+QMUI.h",
+      "line": 19,
+      "symbol": "NSNumber(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSNumber+QMUI.h",
+      "line": 21,
+      "symbol": "NSNumber(QMUI).qmui_CGFloatValue",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSObject+QMUI.h",
+      "line": 21,
+      "symbol": "NSObject(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSObject+QMUI.h",
+      "line": 160,
+      "symbol": "NSObject(QMUI_KeyValueCoding)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSObject+QMUI.h",
+      "line": 211,
+      "symbol": "NSObject(QMUI_DataBind)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSObject+QMUI.h",
+      "line": 296,
+      "symbol": "NSObject(QMUI_Debug)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSObject+QMUI.h",
+      "line": 308,
+      "symbol": "NSThread(QMUI_KVC)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSParagraphStyle+QMUI.h",
+      "line": 19,
+      "symbol": "NSMutableParagraphStyle(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSPointerArray+QMUI.h",
+      "line": 18,
+      "symbol": "NSPointerArray(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSPointerArray+QMUI.h",
+      "line": 20,
+      "symbol": "NSPointerArray(QMUI).-qmui_indexOfPointer:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSPointerArray+QMUI.h",
+      "line": 21,
+      "symbol": "NSPointerArray(QMUI).-qmui_containsPointer:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSString+QMUI.h",
+      "line": 21,
+      "symbol": "NSString(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSString+QMUI.h",
+      "line": 157,
+      "symbol": "NSString(QMUI_StringFormat)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSString+QMUI.h",
+      "line": 159,
+      "symbol": "NSString(QMUI_StringFormat).+qmui_stringWithNSInteger:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSString+QMUI.h",
+      "line": 160,
+      "symbol": "NSString(QMUI_StringFormat).+qmui_stringWithCGFloat:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSString+QMUI.h",
+      "line": 161,
+      "symbol": "NSString(QMUI_StringFormat).+qmui_stringWithCGFloat:decimal:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/NSURL+QMUI.h",
+      "line": 18,
+      "symbol": "NSURL(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIActivityIndicatorView+QMUI.h",
+      "line": 18,
+      "symbol": "UIActivityIndicatorView(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIBarItem+QMUI.h",
+      "line": 20,
+      "symbol": "UIBarItem(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIBezierPath+QMUI.h",
+      "line": 19,
+      "symbol": "UIBezierPath(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 18,
+      "symbol": "UIButton(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 20,
+      "symbol": "QMUICustomizeButtonPropType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 20,
+      "symbol": "QMUICustomizeButtonPropType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 21,
+      "symbol": "QMUICustomizeButtonPropType.QMUICustomizeButtonPropTypeTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 22,
+      "symbol": "QMUICustomizeButtonPropType.QMUICustomizeButtonPropTypeTitleColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 23,
+      "symbol": "QMUICustomizeButtonPropType.QMUICustomizeButtonPropTypeTitleShadowColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 24,
+      "symbol": "QMUICustomizeButtonPropType.QMUICustomizeButtonPropTypeImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 25,
+      "symbol": "QMUICustomizeButtonPropType.QMUICustomizeButtonPropTypeBackgroundImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 26,
+      "symbol": "QMUICustomizeButtonPropType.QMUICustomizeButtonPropTypeAttributedTitle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIButton+QMUI.h",
+      "line": 29,
+      "symbol": "UIButton(QMUI).-qmui_initWithImage:title:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UICollectionView+QMUI.h",
+      "line": 19,
+      "symbol": "UICollectionView(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIColor+QMUI.h",
+      "line": 22,
+      "symbol": "UIColor(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIColor+QMUI.h",
+      "line": 162,
+      "symbol": "QMUIDynamicColorProtocol",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIColor+QMUI.h",
+      "line": 181,
+      "symbol": "UIColor(QMUI_DynamicColor)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIControl+QMUI.h",
+      "line": 18,
+      "symbol": "UIControl(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIFont+QMUI.h",
+      "line": 27,
+      "symbol": "QMUIFontWeight",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIFont+QMUI.h",
+      "line": 27,
+      "symbol": "QMUIFontWeight",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIFont+QMUI.h",
+      "line": 28,
+      "symbol": "QMUIFontWeight.QMUIFontWeightLight",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIFont+QMUI.h",
+      "line": 29,
+      "symbol": "QMUIFontWeight.QMUIFontWeightNormal",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIFont+QMUI.h",
+      "line": 30,
+      "symbol": "QMUIFontWeight.QMUIFontWeightBold",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIFont+QMUI.h",
+      "line": 33,
+      "symbol": "UIFont(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIGestureRecognizer+QMUI.h",
+      "line": 18,
+      "symbol": "UIGestureRecognizer(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 29,
+      "symbol": "QMUIImageShape",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 29,
+      "symbol": "QMUIImageShape",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 30,
+      "symbol": "QMUIImageShape.QMUIImageShapeOval",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 31,
+      "symbol": "QMUIImageShape.QMUIImageShapeTriangle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 32,
+      "symbol": "QMUIImageShape.QMUIImageShapeDisclosureIndicator",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 33,
+      "symbol": "QMUIImageShape.QMUIImageShapeCheckmark",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 34,
+      "symbol": "QMUIImageShape.QMUIImageShapeDetailButtonImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 35,
+      "symbol": "QMUIImageShape.QMUIImageShapeNavBack",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 36,
+      "symbol": "QMUIImageShape.QMUIImageShapeNavClose",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 39,
+      "symbol": "QMUIImageBorderPosition",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 39,
+      "symbol": "QMUIImageBorderPosition",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 40,
+      "symbol": "QMUIImageBorderPosition.QMUIImageBorderPositionAll",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 41,
+      "symbol": "QMUIImageBorderPosition.QMUIImageBorderPositionTop",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 42,
+      "symbol": "QMUIImageBorderPosition.QMUIImageBorderPositionLeft",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 43,
+      "symbol": "QMUIImageBorderPosition.QMUIImageBorderPositionBottom",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 44,
+      "symbol": "QMUIImageBorderPosition.QMUIImageBorderPositionRight",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 47,
+      "symbol": "QMUIImageResizingMode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 47,
+      "symbol": "QMUIImageResizingMode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 48,
+      "symbol": "QMUIImageResizingMode.QMUIImageResizingModeScaleToFill",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 49,
+      "symbol": "QMUIImageResizingMode.QMUIImageResizingModeScaleAspectFit",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 50,
+      "symbol": "QMUIImageResizingMode.QMUIImageResizingModeScaleAspectFill",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 51,
+      "symbol": "QMUIImageResizingMode.QMUIImageResizingModeScaleAspectFillTop",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 52,
+      "symbol": "QMUIImageResizingMode.QMUIImageResizingModeScaleAspectFillBottom",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 55,
+      "symbol": "UIImage(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImage+QMUI.h",
+      "line": 228,
+      "symbol": "UIImage(QMUI).-qmui_imageWithBorderColor:borderWidth:cornerRadius:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIImageView+QMUI.h",
+      "line": 19,
+      "symbol": "UIImageView(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UILabel+QMUI.h",
+      "line": 20,
+      "symbol": "QMUILineHeightIdentity",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UILabel+QMUI.h",
+      "line": 22,
+      "symbol": "UILabel(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UILabel+QMUI.h",
+      "line": 24,
+      "symbol": "UILabel(QMUI).-qmui_initWithFont:textColor:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIMenuController+QMUI.h",
+      "line": 19,
+      "symbol": "UIMenuController(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UINavigationBar+QMUI.h",
+      "line": 20,
+      "symbol": "UINavigationBar(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UINavigationController+QMUI.h",
+      "line": 21,
+      "symbol": "UINavigationController(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UINavigationController+QMUI.h",
+      "line": 38,
+      "symbol": "UINavigationController(QMUI).-qmui_pushViewController:animated:completion:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UINavigationController+QMUI.h",
+      "line": 39,
+      "symbol": "UINavigationController(QMUI).-qmui_popViewControllerAnimated:completion:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UINavigationController+QMUI.h",
+      "line": 40,
+      "symbol": "UINavigationController(QMUI).-qmui_popToViewController:animated:completion:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UINavigationController+QMUI.h",
+      "line": 41,
+      "symbol": "UINavigationController(QMUI).-qmui_popToRootViewControllerAnimated:completion:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIScrollView+QMUI.h",
+      "line": 18,
+      "symbol": "UIScrollView(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIScrollView+QMUI.h",
+      "line": 72,
+      "symbol": "UIScrollView(QMUI).-qmui_stopDeceleratingIfNeeded",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UISearchBar+QMUI.h",
+      "line": 43,
+      "symbol": "UISearchBar(QMUI).qmui_textField",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UISearchBar+QMUI.h",
+      "line": 61,
+      "symbol": "UISearchBar(QMUI).-qmui_styledAsQMUISearchBar",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UISearchController+QMUI.h",
+      "line": 19,
+      "symbol": "UISearchController(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UISwitch+QMUI.h",
+      "line": 19,
+      "symbol": "UISwitch(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITabBar+QMUI.h",
+      "line": 20,
+      "symbol": "UITabBar(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITabBar+QMUI.h",
+      "line": 40,
+      "symbol": "UITabBarAppearance(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITabBarItem+QMUI.h",
+      "line": 18,
+      "symbol": "UITabBarItem(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableView+QMUI.h",
+      "line": 23,
+      "symbol": "QMUITableViewCellPosition.QMUITableViewCellPositionNone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableView+QMUI.h",
+      "line": 24,
+      "symbol": "QMUITableViewCellPosition.QMUITableViewCellPositionFirstInSection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableView+QMUI.h",
+      "line": 25,
+      "symbol": "QMUITableViewCellPosition.QMUITableViewCellPositionMiddleInSection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableView+QMUI.h",
+      "line": 26,
+      "symbol": "QMUITableViewCellPosition.QMUITableViewCellPositionLastInSection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableView+QMUI.h",
+      "line": 27,
+      "symbol": "QMUITableViewCellPosition.QMUITableViewCellPositionSingleInSection",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableViewCell+QMUI.h",
+      "line": 20,
+      "symbol": "UITableViewCell(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableViewCell+QMUI.h",
+      "line": 40,
+      "symbol": "UITableViewCell(QMUI_Styled)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableViewCell+QMUI.h",
+      "line": 45,
+      "symbol": "UITableViewCell(QMUI_Styled).qmui_styledTextLabelColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableViewCell+QMUI.h",
+      "line": 46,
+      "symbol": "UITableViewCell(QMUI_Styled).qmui_styledDetailTextLabelColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableViewCell+QMUI.h",
+      "line": 47,
+      "symbol": "UITableViewCell(QMUI_Styled).qmui_styledBackgroundColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableViewCell+QMUI.h",
+      "line": 48,
+      "symbol": "UITableViewCell(QMUI_Styled).qmui_styledSelectedBackgroundColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITableViewCell+QMUI.h",
+      "line": 49,
+      "symbol": "UITableViewCell(QMUI_Styled).qmui_styledWarningBackgroundColor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITextField+QMUI.h",
+      "line": 19,
+      "symbol": "UITextField(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITextInputTraits+QMUI.h",
+      "line": 17,
+      "symbol": "NSObject(QMUITextInput)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITextInputTraits+QMUI.h",
+      "line": 21,
+      "symbol": "NSObject(QMUITextInput_Private)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UITextView+QMUI.h",
+      "line": 21,
+      "symbol": "UITextView(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 21,
+      "symbol": "UIView(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 63,
+      "symbol": "UIView(QMUI).+qmui_animateWithAnimated:duration:delay:options:animations:completion:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 64,
+      "symbol": "UIView(QMUI).+qmui_animateWithAnimated:duration:animations:completion:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 65,
+      "symbol": "UIView(QMUI).+qmui_animateWithAnimated:duration:animations:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 66,
+      "symbol": "UIView(QMUI).+qmui_animateWithAnimated:duration:delay:usingSpringWithDamping:initialSpringVelocity:options:animations:completion:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 70,
+      "symbol": "UIView(QMUI_Block)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 111,
+      "symbol": "UIView(QMUI_ViewController)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 130,
+      "symbol": "UIView(QMUI_Runtime)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 142,
+      "symbol": "QMUIViewBorderPosition",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 142,
+      "symbol": "QMUIViewBorderPosition",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 143,
+      "symbol": "QMUIViewBorderPosition.QMUIViewBorderPositionNone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 144,
+      "symbol": "QMUIViewBorderPosition.QMUIViewBorderPositionTop",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 145,
+      "symbol": "QMUIViewBorderPosition.QMUIViewBorderPositionLeft",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 146,
+      "symbol": "QMUIViewBorderPosition.QMUIViewBorderPositionBottom",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 147,
+      "symbol": "QMUIViewBorderPosition.QMUIViewBorderPositionRight",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 150,
+      "symbol": "QMUIViewBorderLocation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 150,
+      "symbol": "QMUIViewBorderLocation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 151,
+      "symbol": "QMUIViewBorderLocation.QMUIViewBorderLocationInside",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 152,
+      "symbol": "QMUIViewBorderLocation.QMUIViewBorderLocationCenter",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 153,
+      "symbol": "QMUIViewBorderLocation.QMUIViewBorderLocationOutside",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 179,
+      "symbol": "UIView(QMUI_Border).qmui_dashPattern",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 192,
+      "symbol": "UIView(QMUI_Snapshotting).-qmui_snapshotLayerImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 193,
+      "symbol": "UIView(QMUI_Snapshotting).-qmui_snapshotImageAfterScreenUpdates:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIView+QMUI.h",
+      "line": 255,
+      "symbol": "UIView(CGAffineTransform)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods/QMUIKit/QMUIKit/UIKitExtensions/UIWindow+QMUI.h",
+      "line": 18,
+      "symbol": "UIWindow(QMUI)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/edmond/Documents/xueqiu/Cocoa-Documentation-Example/Pods"
+}

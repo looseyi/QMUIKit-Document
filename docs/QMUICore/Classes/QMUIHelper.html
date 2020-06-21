@@ -1,0 +1,2515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QMUIHelper Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QMUIHelper" class="dashAnchor"></a>
+
+    <a title="QMUIHelper Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (25% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QMUIHelper Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITabBarItem%28QMUIConfiguration%29.html">UITabBarItem(QMUIConfiguration)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConfiguration.html">QMUIConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIHelper.html">QMUIHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPropertyDescriptor.html">QMUIPropertyDescriptor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIConfigurationTemplateProtocol.html">QMUIConfigurationTemplateProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIRuntime.h@T@classref_t">classref_t</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@AddAccessibilityHint">AddAccessibilityHint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@AddAccessibilityLabel">AddAccessibilityLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGFloatEqualToFloat">CGFloatEqualToFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGFloatEqualToFloatWithPrecision">CGFloatEqualToFloatWithPrecision</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGFloatGetCenter">CGFloatGetCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGFloatSafeValue">CGFloatSafeValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGFloatToFixed">CGFloatToFixed</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGPointApplyAffineTransformWithCoordinatePoint">CGPointApplyAffineTransformWithCoordinatePoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGPointGetCenterWithRect">CGPointGetCenterWithRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGPointGetCenterWithSize">CGPointGetCenterWithSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGPointRemoveFloatMin">CGPointRemoveFloatMin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGPointToFixed">CGPointToFixed</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGPointUnion">CGPointUnion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectApplyAffineTransformWithAnchorPoint">CGRectApplyAffineTransformWithAnchorPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectApplyScale">CGRectApplyScale</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectFlatMake">CGRectFlatMake</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectFlatted">CGRectFlatted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectFloatBottom">CGRectFloatBottom</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectFloatLeft">CGRectFloatLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectFloatRight">CGRectFloatRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectFloatTop">CGRectFloatTop</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectGetMinXHorizontallyCenter">CGRectGetMinXHorizontallyCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectGetMinXHorizontallyCenterInParentRect">CGRectGetMinXHorizontallyCenterInParentRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectGetMinYVerticallyCenter">CGRectGetMinYVerticallyCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectGetMinYVerticallyCenterInParentRect">CGRectGetMinYVerticallyCenterInParentRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectInsetEdges">CGRectInsetEdges</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectIsInf">CGRectIsInf</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectIsNaN">CGRectIsNaN</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectIsValidated">CGRectIsValidated</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectLimitLeft">CGRectLimitLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectLimitMaxWidth">CGRectLimitMaxWidth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectLimitRight">CGRectLimitRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectMakeWithSize">CGRectMakeWithSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectRemoveFloatMin">CGRectRemoveFloatMin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectSafeValue">CGRectSafeValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectSetHeight">CGRectSetHeight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectSetSize">CGRectSetSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectSetWidth">CGRectSetWidth</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectSetX">CGRectSetX</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectSetXY">CGRectSetXY</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectSetY">CGRectSetY</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGRectToFixed">CGRectToFixed</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeCeil">CGSizeCeil</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeFlatted">CGSizeFlatted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeFloor">CGSizeFloor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeIsEmpty">CGSizeIsEmpty</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeIsInf">CGSizeIsInf</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeIsNaN">CGSizeIsNaN</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeIsValidated">CGSizeIsValidated</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeRemoveFloatMin">CGSizeRemoveFloatMin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@CGSizeToFixed">CGSizeToFixed</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@ExchangeImplementations">ExchangeImplementations</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@ExchangeImplementationsInTwoClasses">ExchangeImplementationsInTwoClasses</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@ExtendImplementationOfVoidMethodWithoutArguments">ExtendImplementationOfVoidMethodWithoutArguments</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@HasOverrideSuperclassMethod">HasOverrideSuperclassMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@NSContainingRanges">NSContainingRanges</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@OverrideImplementation">OverrideImplementation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsConcat">UIEdgeInsetsConcat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsGetHorizontalValue">UIEdgeInsetsGetHorizontalValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsGetVerticalValue">UIEdgeInsetsGetVerticalValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsRemoveFloatMin">UIEdgeInsetsRemoveFloatMin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsSetBottom">UIEdgeInsetsSetBottom</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsSetLeft">UIEdgeInsetsSetLeft</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsSetRight">UIEdgeInsetsSetRight</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsSetTop">UIEdgeInsetsSetTop</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@UIEdgeInsetsToFixed">UIEdgeInsetsToFixed</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@between">between</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@betweenOrEqual">betweenOrEqual</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@flat">flat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@flatSpecificScale">flatSpecificScale</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@floorInPixel">floorInPixel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getBOOLIvarValue">getBOOLIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getCharIvarValue">getCharIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getCharacterIvarValue">getCharacterIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getDoubleIvarValue">getDoubleIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getFloatIvarValue">getFloatIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getIntIvarValue">getIntIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getLongIvarValue">getLongIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getLongLongIvarValue">getLongLongIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getObjectIvarValue">getObjectIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getSelectorIvarValue">getSelectorIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getShortIvarValue">getShortIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getUnsignedCharIvarValue">getUnsignedCharIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getUnsignedIntIvarValue">getUnsignedIntIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getUnsignedLongIvarValue">getUnsignedLongIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getUnsignedLongLongIvarValue">getUnsignedLongLongIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@getUnsignedShortIvarValue">getUnsignedShortIvarValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isBOOLIvar">isBOOLIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isBOOLTypeEncoding">isBOOLTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isCGFloatIvar">isCGFloatIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isCGFloatTypeEncoding">isCGFloatTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isCharIvar">isCharIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isCharTypeEncoding">isCharTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isCharacterIvar">isCharacterIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isCharacterTypeEncoding">isCharacterTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isClassIvar">isClassIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isClassTypeEncoding">isClassTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isDoubleIvar">isDoubleIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isDoubleTypeEncoding">isDoubleTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isFloatIvar">isFloatIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isFloatTypeEncoding">isFloatTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isIntIvar">isIntIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isIntTypeEncoding">isIntTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isLongIvar">isLongIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isLongLongIvar">isLongLongIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isLongLongTypeEncoding">isLongLongTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isLongTypeEncoding">isLongTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isNSIntegerIvar">isNSIntegerIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isNSIntegerTypeEncoding">isNSIntegerTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isNSUIntegerIvar">isNSUIntegerIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isNSUIntegerTypeEncoding">isNSUIntegerTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isObjectIvar">isObjectIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isObjectTypeEncoding">isObjectTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isSelectorIvar">isSelectorIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isSelectorTypeEncoding">isSelectorTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isShortIvar">isShortIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isShortTypeEncoding">isShortTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedCharIvar">isUnsignedCharIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedCharTypeEncoding">isUnsignedCharTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedIntIvar">isUnsignedIntIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedIntTypeEncoding">isUnsignedIntTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedLongIvar">isUnsignedLongIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedLongLongIvar">isUnsignedLongLongIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedLongLongTypeEncoding">isUnsignedLongLongTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedLongTypeEncoding">isUnsignedLongTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedShortIvar">isUnsignedShortIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isUnsignedShortTypeEncoding">isUnsignedShortTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isVoidIvar">isVoidIvar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIRuntime.h@F@isVoidTypeEncoding">isVoidTypeEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@qmui_getProjectClassList">qmui_getProjectClassList</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@removeFloatMin">removeFloatMin</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUICommonDefines.h@F@setterWithGetter">setterWithGetter</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs.html#/c:@S@classref">classref</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>QMUIHelper</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUIHelper</span> <span class="p">:</span> <span class="nc">NSObject</span>
+
+<span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">sharedInstance</span><span class="p">;</span>
+<span class="k">@end</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)sharedInstance"></a>
+                    <a name="//apple_ref/swift/Method/+sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)sharedInstance">+sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">sharedInstance</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sharedInstance</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Bundle"></a>
+                <a name="//apple_ref/swift/Section/Bundle" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Bundle"></a>
+                  <h3 class="section-name"><p>Bundle</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)imageWithName:"></a>
+                    <a name="//apple_ref/swift/Method/+imageWithName:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)imageWithName:">+imageWithName:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取 QMUIKit.framework Images.xcassets 内的图片资源</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">UIImage</span> <span class="o">*</span><span class="p">)</span><span class="nf">imageWithName</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">name</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">image</span><span class="p">(</span><span class="n">withName</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIImage</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>图片名</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/SystemVersion"></a>
+                <a name="//apple_ref/swift/Section/SystemVersion" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/SystemVersion"></a>
+                  <h3 class="section-name"><p>SystemVersion</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)numbericOSVersion"></a>
+                    <a name="//apple_ref/swift/Method/+numbericOSVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)numbericOSVersion">+numbericOSVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">NSInteger</span><span class="p">)</span><span class="n">numbericOSVersion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">numbericOSVersion</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)compareSystemVersion:toVersion:"></a>
+                    <a name="//apple_ref/swift/Method/+compareSystemVersion:toVersion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)compareSystemVersion:toVersion:">+compareSystemVersion:<wbr>toVersion:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">NSComparisonResult</span><span class="p">)</span><span class="nf">compareSystemVersion</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">currentVersion</span> <span class="nf">toVersion</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">targetVersion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">compareSystemVersion</span><span class="p">(</span><span class="n">_</span> <span class="nv">currentVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">toVersion</span> <span class="nv">targetVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">ComparisonResult</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isCurrentSystemAtLeastVersion:"></a>
+                    <a name="//apple_ref/swift/Method/+isCurrentSystemAtLeastVersion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isCurrentSystemAtLeastVersion:">+isCurrentSystemAtLeastVersion:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">isCurrentSystemAtLeastVersion</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">targetVersion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isCurrentSystem</span><span class="p">(</span><span class="n">atLeastVersion</span> <span class="nv">targetVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isCurrentSystemLowerThanVersion:"></a>
+                    <a name="//apple_ref/swift/Method/+isCurrentSystemLowerThanVersion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isCurrentSystemLowerThanVersion:">+isCurrentSystemLowerThanVersion:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">isCurrentSystemLowerThanVersion</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">targetVersion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isCurrentSystemLowerThanVersion</span><span class="p">(</span><span class="n">_</span> <span class="nv">targetVersion</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/DynamicType"></a>
+                <a name="//apple_ref/swift/Section/DynamicType" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/DynamicType"></a>
+                  <h3 class="section-name"><p>DynamicType</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)preferredContentSizeLevel"></a>
+                    <a name="//apple_ref/swift/Method/+preferredContentSizeLevel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)preferredContentSizeLevel">+preferredContentSizeLevel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>返回当前 contentSize 的 level，这个值可以在设置里面的“字体大小”查看，辅助功能里面有个“更大字体”可以设置更大的字体，不过这里我们这个接口将更大字体都做了统一，都返回“字体大小”里面最大值。
+Returns the level of contentSize
+The value can be set in Settings - Display &amp; Brightness - Text Size as well as in General - Accessibility - Larger Text
+This method returns the value set by user or the maximum value in Text Size, whichever is smaller</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSNumber</span> <span class="o">*</span><span class="p">)</span><span class="n">preferredContentSizeLevel</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">preferredContentSizeLevel</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSNumber</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)heightForDynamicTypeCell:"></a>
+                    <a name="//apple_ref/swift/Method/+heightForDynamicTypeCell:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)heightForDynamicTypeCell:">+heightForDynamicTypeCell:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>设置当前 cell 的高度，heights 是有七个数值的数组，对于不支持的iOS版本，则选择中间的值返回。
+Sets height of the cell; Heights consist of 7 numberic values; Returns the middle value on legacy iOS versions.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGFloat</span><span class="p">)</span><span class="nf">heightForDynamicTypeCell</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">heights</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">height</span><span class="p">(</span><span class="n">forDynamicTypeCell</span> <span class="nv">heights</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Keyboard"></a>
+                <a name="//apple_ref/swift/Section/Keyboard" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Keyboard"></a>
+                  <h3 class="section-name"><p>Keyboard</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isKeyboardVisible"></a>
+                    <a name="//apple_ref/swift/Method/+isKeyboardVisible" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isKeyboardVisible">+isKeyboardVisible</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>判断当前 App 里的键盘是否升起，默认为 NO
+Returns the visibility of the keybord. Default value is NO.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isKeyboardVisible</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isKeyboardVisible</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)lastKeyboardHeightInApplicationWindowWhenVisible"></a>
+                    <a name="//apple_ref/swift/Method/+lastKeyboardHeightInApplicationWindowWhenVisible" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)lastKeyboardHeightInApplicationWindowWhenVisible">+lastKeyboardHeightInApplicationWindowWhenVisible</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>记录上一次键盘显示时的高度（基于整个 App 所在的 window 的坐标系），注意使用前用 <code>isKeyboardVisible</code> 判断键盘是否显示，因为即便是键盘被隐藏的情况下，调用 <code>lastKeyboardHeightInApplicationWindowWhenVisible</code> 也会得到高度值。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGFloat</span><span class="p">)</span><span class="n">lastKeyboardHeightInApplicationWindowWhenVisible</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">lastKeyboardHeightInApplicationWindowWhenVisible</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)keyboardRectWithNotification:"></a>
+                    <a name="//apple_ref/swift/Method/+keyboardRectWithNotification:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)keyboardRectWithNotification:">+keyboardRectWithNotification:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前键盘frame相关</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    注意iOS8以下的系统在横屏时得到的rect，宽度和高度相反了，所以不建议直接通过这个方法获取高度，而是使用<code>keyboardHeightWithNotification:inView:</code>，因为在后者的实现里会将键盘的rect转换坐标系，转换过程就会处理横竖屏旋转问题。
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGRect</span><span class="p">)</span><span class="nf">keyboardRectWithNotification</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSNotification</span> <span class="o">*</span><span class="p">)</span><span class="nv">notification</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">keyboardRect</span><span class="p">(</span><span class="n">with</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)keyboardHeightWithNotification:"></a>
+                    <a name="//apple_ref/swift/Method/+keyboardHeightWithNotification:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)keyboardHeightWithNotification:">+keyboardHeightWithNotification:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前键盘的高度，注意高度可能为0（例如第三方键盘会发出两次notification，其中第一次的高度就为0）</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGFloat</span><span class="p">)</span><span class="nf">keyboardHeightWithNotification</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nullable</span> <span class="n">NSNotification</span> <span class="o">*</span><span class="p">)</span><span class="nv">notification</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">keyboardHeight</span><span class="p">(</span><span class="n">with</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)keyboardHeightWithNotification:inView:"></a>
+                    <a name="//apple_ref/swift/Method/+keyboardHeightWithNotification:inView:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)keyboardHeightWithNotification:inView:">+keyboardHeightWithNotification:<wbr>inView:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取当前键盘在屏幕上的可见高度，注意外接键盘（iPad那种）时，[QMUIHelper keyboardRectWithNotification]得到的键盘rect里有一部分是超出屏幕，不可见的，如果直接拿rect的高度来计算就会与意图相悖。</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    如果view.window为空（当前View尚不可见），则会使用App默认的UIWindow来做坐标转换，可能会导致一些计算错误
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGFloat</span><span class="p">)</span><span class="nf">keyboardHeightWithNotification</span><span class="p">:</span>
+               <span class="p">(</span><span class="n">nullable</span> <span class="n">NSNotification</span> <span class="o">*</span><span class="p">)</span><span class="nv">notification</span>
+                                   <span class="nf">inView</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">view</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">keyboardHeight</span><span class="p">(</span><span class="n">with</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">?,</span> <span class="k">in</span> <span class="nv">view</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>notification</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>接收到的键盘事件的UINotification对象</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>view</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>要得到的键盘高度是相对于哪个View的键盘高度，若为nil，则等同于调用[QMUIHelper keyboardHeightWithNotification:]</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>键盘在view里的可视高度</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)keyboardAnimationDurationWithNotification:"></a>
+                    <a name="//apple_ref/swift/Method/+keyboardAnimationDurationWithNotification:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)keyboardAnimationDurationWithNotification:">+keyboardAnimationDurationWithNotification:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取键盘显示/隐藏的动画时长，注意返回值可能为0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nf">keyboardAnimationDurationWithNotification</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nullable</span> <span class="n">NSNotification</span> <span class="o">*</span><span class="p">)</span><span class="nv">notification</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">keyboardAnimationDuration</span><span class="p">(</span><span class="n">with</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)keyboardAnimationCurveWithNotification:"></a>
+                    <a name="//apple_ref/swift/Method/+keyboardAnimationCurveWithNotification:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)keyboardAnimationCurveWithNotification:">+keyboardAnimationCurveWithNotification:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取键盘显示/隐藏的动画时间函数</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">UIViewAnimationCurve</span><span class="p">)</span><span class="nf">keyboardAnimationCurveWithNotification</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nullable</span> <span class="n">NSNotification</span> <span class="o">*</span><span class="p">)</span><span class="nv">notification</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">keyboardAnimationCurve</span><span class="p">(</span><span class="n">with</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">UIView</span><span class="o">.</span><span class="kt">AnimationCurve</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)keyboardAnimationOptionsWithNotification:"></a>
+                    <a name="//apple_ref/swift/Method/+keyboardAnimationOptionsWithNotification:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)keyboardAnimationOptionsWithNotification:">+keyboardAnimationOptionsWithNotification:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取键盘显示/隐藏的动画时间函数</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">UIViewAnimationOptions</span><span class="p">)</span><span class="nf">keyboardAnimationOptionsWithNotification</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">nullable</span> <span class="n">NSNotification</span> <span class="o">*</span><span class="p">)</span><span class="nv">notification</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">keyboardAnimationOptions</span><span class="p">(</span><span class="n">with</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">UIView</span><span class="o">.</span><span class="kt">AnimationOptions</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/AudioSession"></a>
+                <a name="//apple_ref/swift/Section/AudioSession" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/AudioSession"></a>
+                  <h3 class="section-name"><p>AudioSession</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)redirectAudioRouteWithSpeaker:temporary:"></a>
+                    <a name="//apple_ref/swift/Method/+redirectAudioRouteWithSpeaker:temporary:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)redirectAudioRouteWithSpeaker:temporary:">+redirectAudioRouteWithSpeaker:<wbr>temporary:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>听筒和扬声器的切换</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">redirectAudioRouteWithSpeaker</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">speaker</span> <span class="nf">temporary</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">temporary</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">redirectAudioRoute</span><span class="p">(</span><span class="n">withSpeaker</span> <span class="nv">speaker</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">temporary</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>speaker</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>是否转为扬声器，NO则听筒</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>temporary</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>决定使用kAudioSessionProperty_OverrideAudioRoute还是kAudioSessionProperty_OverrideCategoryDefaultToSpeaker，两者的区别请查看本组的博客文章:<a href="http://km.oa.com/group/gyui/articles/show/235957">http://km.oa.com/group/gyui/articles/show/235957</a></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)setAudioSessionCategory:"></a>
+                    <a name="//apple_ref/swift/Method/+setAudioSessionCategory:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)setAudioSessionCategory:">+setAudioSessionCategory:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>设置category</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAudioSessionCategory</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">category</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">setAudioSessionCategory</span><span class="p">(</span><span class="n">_</span> <span class="nv">category</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>category</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>使用iOS7的category，iOS6的会自动适配</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIGraphic"></a>
+                <a name="//apple_ref/swift/Section/UIGraphic" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/UIGraphic"></a>
+                  <h3 class="section-name"><p>UIGraphic</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)pixelOne"></a>
+                    <a name="//apple_ref/swift/Method/+pixelOne" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)pixelOne">+pixelOne</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>获取一像素的大小</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGFloat</span><span class="p">)</span><span class="n">pixelOne</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">pixelOne</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)inspectContextSize:"></a>
+                    <a name="//apple_ref/swift/Method/+inspectContextSize:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)inspectContextSize:">+inspectContextSize:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>判断size是否超出范围</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">inspectContextSize</span><span class="p">:(</span><span class="n">CGSize</span><span class="p">)</span><span class="nv">size</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">inspectContextSize</span><span class="p">(</span><span class="n">_</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)inspectContextIfInvalidatedInDebugMode:"></a>
+                    <a name="//apple_ref/swift/Method/+inspectContextIfInvalidatedInDebugMode:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)inspectContextIfInvalidatedInDebugMode:">+inspectContextIfInvalidatedInDebugMode:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>context是否合法</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">inspectContextIfInvalidatedInDebugMode</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">CGContextRef</span><span class="p">)</span><span class="nv">context</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">inspectContextIfInvalidated</span><span class="p">(</span><span class="n">inDebugMode</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">CGContext</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)inspectContextIfInvalidatedInReleaseMode:"></a>
+                    <a name="//apple_ref/swift/Method/+inspectContextIfInvalidatedInReleaseMode:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)inspectContextIfInvalidatedInReleaseMode:">+inspectContextIfInvalidatedInReleaseMode:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">inspectContextIfInvalidatedInReleaseMode</span><span class="p">:(</span><span class="n">CGContextRef</span><span class="p">)</span><span class="nv">context</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">inspectContextIfInvalidated</span><span class="p">(</span><span class="n">inReleaseMode</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">CGContext</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Device"></a>
+                <a name="//apple_ref/swift/Section/Device" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Device"></a>
+                  <h3 class="section-name"><p>Device</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)deviceModel"></a>
+                    <a name="//apple_ref/swift/Method/+deviceModel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)deviceModel">+deviceModel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>如 iPhone12,5、iPad6,8</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="n">deviceModel</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">deviceModel</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)deviceName"></a>
+                    <a name="//apple_ref/swift/Method/+deviceName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)deviceName">+deviceName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>如 iPhone 11 Pro Max、iPad Pro (12.9 inch)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="n">deviceName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">deviceName</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isIPad"></a>
+                    <a name="//apple_ref/swift/Method/+isIPad" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isIPad">+isIPad</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isIPad</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isIPad</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isIPod"></a>
+                    <a name="//apple_ref/swift/Method/+isIPod" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isIPod">+isIPod</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isIPod</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isIPod</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isIPhone"></a>
+                    <a name="//apple_ref/swift/Method/+isIPhone" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isIPhone">+isIPhone</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isIPhone</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isIPhone</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isSimulator"></a>
+                    <a name="//apple_ref/swift/Method/+isSimulator" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isSimulator">+isSimulator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isSimulator</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isSimulator</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isNotchedScreen"></a>
+                    <a name="//apple_ref/swift/Method/+isNotchedScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isNotchedScreen">+isNotchedScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>带物理凹槽的刘海屏或者使用 Home Indicator 类型的设备</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isNotchedScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isNotchedScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isRegularScreen"></a>
+                    <a name="//apple_ref/swift/Method/+isRegularScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isRegularScreen">+isRegularScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>将屏幕分为普通和紧凑两种，这个方法用于判断普通屏幕</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isRegularScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isRegularScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)is65InchScreen"></a>
+                    <a name="//apple_ref/swift/Method/+is65InchScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)is65InchScreen">+is65InchScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>iPhone XS Max / 11 Pro Max</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">is65InchScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">is65InchScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)is61InchScreen"></a>
+                    <a name="//apple_ref/swift/Method/+is61InchScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)is61InchScreen">+is61InchScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>iPhone XR / 11</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">is61InchScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">is61InchScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)is58InchScreen"></a>
+                    <a name="//apple_ref/swift/Method/+is58InchScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)is58InchScreen">+is58InchScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>iPhone X / XS / 11Pro</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">is58InchScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">is58InchScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)is55InchScreen"></a>
+                    <a name="//apple_ref/swift/Method/+is55InchScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)is55InchScreen">+is55InchScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>iPhone 8 Plus</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">is55InchScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">is55InchScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)is47InchScreen"></a>
+                    <a name="//apple_ref/swift/Method/+is47InchScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)is47InchScreen">+is47InchScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>iPhone 8</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">is47InchScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">is47InchScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)is40InchScreen"></a>
+                    <a name="//apple_ref/swift/Method/+is40InchScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)is40InchScreen">+is40InchScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>iPhone 5</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">is40InchScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">is40InchScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)is35InchScreen"></a>
+                    <a name="//apple_ref/swift/Method/+is35InchScreen" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)is35InchScreen">+is35InchScreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>iPhone 4</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">is35InchScreen</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">is35InchScreen</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)screenSizeFor65Inch"></a>
+                    <a name="//apple_ref/swift/Method/+screenSizeFor65Inch" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)screenSizeFor65Inch">+screenSizeFor65Inch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGSize</span><span class="p">)</span><span class="n">screenSizeFor65Inch</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">screenSizeFor65Inch</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)screenSizeFor61Inch"></a>
+                    <a name="//apple_ref/swift/Method/+screenSizeFor61Inch" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)screenSizeFor61Inch">+screenSizeFor61Inch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGSize</span><span class="p">)</span><span class="n">screenSizeFor61Inch</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">screenSizeFor61Inch</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)screenSizeFor58Inch"></a>
+                    <a name="//apple_ref/swift/Method/+screenSizeFor58Inch" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)screenSizeFor58Inch">+screenSizeFor58Inch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGSize</span><span class="p">)</span><span class="n">screenSizeFor58Inch</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">screenSizeFor58Inch</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)screenSizeFor55Inch"></a>
+                    <a name="//apple_ref/swift/Method/+screenSizeFor55Inch" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)screenSizeFor55Inch">+screenSizeFor55Inch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGSize</span><span class="p">)</span><span class="n">screenSizeFor55Inch</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">screenSizeFor55Inch</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)screenSizeFor47Inch"></a>
+                    <a name="//apple_ref/swift/Method/+screenSizeFor47Inch" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)screenSizeFor47Inch">+screenSizeFor47Inch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGSize</span><span class="p">)</span><span class="n">screenSizeFor47Inch</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">screenSizeFor47Inch</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)screenSizeFor40Inch"></a>
+                    <a name="//apple_ref/swift/Method/+screenSizeFor40Inch" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)screenSizeFor40Inch">+screenSizeFor40Inch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGSize</span><span class="p">)</span><span class="n">screenSizeFor40Inch</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">screenSizeFor40Inch</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)screenSizeFor35Inch"></a>
+                    <a name="//apple_ref/swift/Method/+screenSizeFor35Inch" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)screenSizeFor35Inch">+screenSizeFor35Inch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGSize</span><span class="p">)</span><span class="n">screenSizeFor35Inch</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">screenSizeFor35Inch</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)preferredLayoutAsSimilarScreenWidthForIPad"></a>
+                    <a name="//apple_ref/swift/Method/+preferredLayoutAsSimilarScreenWidthForIPad" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)preferredLayoutAsSimilarScreenWidthForIPad">+preferredLayoutAsSimilarScreenWidthForIPad</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGFloat</span><span class="p">)</span><span class="n">preferredLayoutAsSimilarScreenWidthForIPad</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">preferredLayoutAsSimilarScreenWidthForIPad</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)safeAreaInsetsForDeviceWithNotch"></a>
+                    <a name="//apple_ref/swift/Method/+safeAreaInsetsForDeviceWithNotch" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)safeAreaInsetsForDeviceWithNotch">+safeAreaInsetsForDeviceWithNotch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">UIEdgeInsets</span><span class="p">)</span><span class="n">safeAreaInsetsForDeviceWithNotch</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">safeAreaInsetsForDeviceWithNotch</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIEdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isHighPerformanceDevice"></a>
+                    <a name="//apple_ref/swift/Method/+isHighPerformanceDevice" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isHighPerformanceDevice">+isHighPerformanceDevice</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>判断当前设备是否高性能设备，只会判断一次，以后都直接读取结果，所以没有性能问题</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isHighPerformanceDevice</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isHighPerformanceDevice</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)isZoomedMode"></a>
+                    <a name="//apple_ref/swift/Method/+isZoomedMode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)isZoomedMode">+isZoomedMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>系统设置里是否开启了“放大显示-试图-放大”，支持放大模式的 iPhone 设备可在官方文档中查询 <a href="https://support.apple.com/zh-cn/guide/iphone/iphd6804774e/ios">https://support.apple.com/zh-cn/guide/iphone/iphd6804774e/ios</a></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isZoomedMode</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">isZoomedMode</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)applicationSize"></a>
+                    <a name="//apple_ref/swift/Method/+applicationSize" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)applicationSize">+applicationSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>在 iPad 分屏模式下可获得实际运行区域的窗口大小，如需适配 iPad 分屏，建议用这个方法来代替 [UIScreen mainScreen].bounds.size</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">CGSize</span><span class="p">)</span><span class="n">applicationSize</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">applicationSize</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>应用运行的窗口大小</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UIApplication"></a>
+                <a name="//apple_ref/swift/Section/UIApplication" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/UIApplication"></a>
+                  <h3 class="section-name"><p>UIApplication</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)dimmedApplicationWindow"></a>
+                    <a name="//apple_ref/swift/Method/+dimmedApplicationWindow" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)dimmedApplicationWindow">+dimmedApplicationWindow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>把App的主要window置灰，用于浮层弹出时，请注意要在适当时机调用<code>resetDimmedApplicationWindow</code>恢复到正常状态</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">dimmedApplicationWindow</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">dimmedApplicationWindow</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)resetDimmedApplicationWindow"></a>
+                    <a name="//apple_ref/swift/Method/+resetDimmedApplicationWindow" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)resetDimmedApplicationWindow">+resetDimmedApplicationWindow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>恢复对App的主要window的置灰操作，与<code>dimmedApplicationWindow</code>成对调用</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">resetDimmedApplicationWindow</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">resetDimmedApplicationWindow</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)statusBarStyleDarkContent"></a>
+                    <a name="//apple_ref/swift/Method/+statusBarStyleDarkContent" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)statusBarStyleDarkContent">+statusBarStyleDarkContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>黑色的 StatusBarStyle，用于亮色背景</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    在 iOS 13 以前  UIStatusBarStyleDefault 状态栏内容的颜色固定是黑色的，而在 iOS 13 UIStatusBarStyleDefault 会根据 user interface style 来决定状态栏的颜色，如果你需要一直黑色可以用 QMUIStatusBarStyleDarkContent 来代替以前 UIStatusBarStyleDefault 的写法
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">UIStatusBarStyle</span><span class="p">)</span><span class="n">statusBarStyleDarkContent</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">statusBarStyleDarkContent</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIStatusBarStyle</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>在 iOS 13 以上返回 UIStatusBarStyleDarkContent，在 iOS 12 及以下返回 UIStatusBarStyleDefault</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Animation"></a>
+                <a name="//apple_ref/swift/Section/Animation" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Animation"></a>
+                  <h3 class="section-name"><p>Animation</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUIHelper(cm)executeAnimationBlock:completionBlock:"></a>
+                    <a name="//apple_ref/swift/Method/+executeAnimationBlock:completionBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUIHelper(cm)executeAnimationBlock:completionBlock:">+executeAnimationBlock:<wbr>completionBlock:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>在 animationBlock 里的操作完成之后会调用 completionBlock，常用于一些不提供 completionBlock 的系统动画操作，例如 [UINavigationController pushViewController:animated:YES] 的场景，注意 UIScrollView 系列的滚动无法使用这个方法。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">executeAnimationBlock</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">animationBlock</span>
+              <span class="nf">completionBlock</span><span class="p">:(</span><span class="n">nullable</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">completionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">executeAnimationBlock</span><span class="p">(</span><span class="n">_</span> <span class="nv">animationBlock</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>animationBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>要进行的带动画的操作</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>操作完成后的回调</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

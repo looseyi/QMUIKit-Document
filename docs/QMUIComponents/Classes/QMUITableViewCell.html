@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QMUITableViewCell Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QMUITableViewCell" class="dashAnchor"></a>
+
+    <a title="QMUITableViewCell Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+         (51% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QMUITableViewCell Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/CAAnimation%28QMUI%29.html">CAAnimation(QMUI)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/CALayer%28QMUIViewAnimation%29.html">CALayer(QMUIViewAnimation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIAppearnace%29.html">NSObject(QMUIAppearnace)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIMultipleDelegates%29.html">NSObject(QMUIMultipleDelegates)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/NSObject%28QMUIWindowSizeMonitor%29.html">NSObject(QMUIWindowSizeMonitor)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/PHPhotoLibrary%28QMUI%29.html">PHPhotoLibrary(QMUI)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIBarButtonItem%28QMUINavigationButton%29.html">UIBarButtonItem(QMUINavigationButton)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIBarItem%28QMUIBadge%29.html">UIBarItem(QMUIBadge)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUICellHeightIndexPathCache%29.html">UICollectionView(QMUICellHeightIndexPathCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUICellSizeKeyCache%29.html">UICollectionView(QMUICellSizeKeyCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUIIndexPathHeightCacheInvalidation%29.html">UICollectionView(QMUIIndexPathHeightCacheInvalidation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUIKeyedHeightCache%29.html">UICollectionView(QMUIKeyedHeightCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UICollectionView%28QMUILayoutCell%29.html">UICollectionView(QMUILayoutCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIColor%28QMUITheme%29.html">UIColor(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIImage%28QMUITheme%29.html">UIImage(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UINavigationBar%28Transition%29.html">UINavigationBar(Transition)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIResponder%28KeyboardManager%29.html">UIResponder(KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUICellHeightIndexPathCache%29.html">UITableView(QMUICellHeightIndexPathCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUICellHeightKeyCache%29.html">UITableView(QMUICellHeightKeyCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUIIndexPathHeightCacheInvalidation%29.html">UITableView(QMUIIndexPathHeightCacheInvalidation)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUIKeyedHeightCache%29.html">UITableView(QMUIKeyedHeightCache)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUILayoutCell%29.html">UITableView(QMUILayoutCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITableView%28QMUI_StaticCell%29.html">UITableView(QMUI_StaticCell)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITextField%28QMUI_KeyboardManager%29.html">UITextField(QMUI_KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UITextView%28QMUI_KeyboardManager%29.html">UITextView(QMUI_KeyboardManager)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIView%28QMUITheme%29.html">UIView(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIView%28QMUITheme_Private%29.html">UIView(QMUITheme_Private)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIViewController%28QMUIModalPresentationViewController%29.html">UIViewController(QMUIModalPresentationViewController)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIViewController%28QMUITheme%29.html">UIViewController(QMUITheme)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Categories/UIVisualEffect%28QMUITheme%29.html">UIVisualEffect(QMUITheme)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlbumTableViewCell.html">QMUIAlbumTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlbumViewController.html">QMUIAlbumViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlertAction.html">QMUIAlertAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAlertController.html">QMUIAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAnimationHelper.html">QMUIAnimationHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAppearance.html">QMUIAppearance</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAsset.html">QMUIAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAssetsGroup.html">QMUIAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIAssetsManager.html">QMUIAssetsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIButton.html">QMUIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightCache.html">QMUICellHeightCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightIndexPathCache.html">QMUICellHeightIndexPathCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellHeightKeyCache.html">QMUICellHeightKeyCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICellSizeKeyCache.html">QMUICellSizeKeyCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUICollectionViewPagingLayout.html">QMUICollectionViewPagingLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConsoleToolbar.html">QMUIConsoleToolbar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIConsoleViewController.html">QMUIConsoleViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogSelectionViewController.html">QMUIDialogSelectionViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogTextFieldViewController.html">QMUIDialogTextFieldViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDialogViewController.html">QMUIDialogViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIDisplayLinkAnimation.html">QMUIDisplayLinkAnimation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotion.html">QMUIEmotion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotionInputManager.html">QMUIEmotionInputManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmotionView.html">QMUIEmotionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIEmptyView.html">QMUIEmptyView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIFillButton.html">QMUIFillButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIFloatLayoutView.html">QMUIFloatLayoutView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIGhostButton.html">QMUIGhostButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIGridView.html">QMUIGridView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerCollectionViewCell.html">QMUIImagePickerCollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerHelper.html">QMUIImagePickerHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerPreviewViewController.html">QMUIImagePickerPreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePickerViewController.html">QMUIImagePickerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewView.html">QMUIImagePreviewView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewViewController.html">QMUIImagePreviewViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIImagePreviewViewTransitionAnimator.html">QMUIImagePreviewViewTransitionAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIKeyboardManager.html">QMUIKeyboardManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIKeyboardUserInfo.html">QMUIKeyboardUserInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILabel.html">QMUILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILinkButton.html">QMUILinkButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogItem.html">QMUILogItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogManagerViewController.html">QMUILogManagerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogNameManager.html">QMUILogNameManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUILogger.html">QMUILogger</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMarqueeLabel.html">QMUIMarqueeLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIModalPresentationViewController.html">QMUIModalPresentationViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUIModalPresentationWindow">QMUIModalPresentationWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMoreOperationController.html">QMUIMoreOperationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMoreOperationItemView.html">QMUIMoreOperationItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIMultipleDelegates.html">QMUIMultipleDelegates</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationBarScrollingAnimator.html">QMUINavigationBarScrollingAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationBarScrollingSnapAnimator.html">QMUINavigationBarScrollingSnapAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationButton.html">QMUINavigationButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUINavigationTitleView.html">QMUINavigationTitleView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIOrderedDictionary.html">QMUIOrderedDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPieProgressView.html">QMUIPieProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupContainerView.html">QMUIPopupContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUIPopupMenuBaseItem">QMUIPopupMenuBaseItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupMenuButtonItem.html">QMUIPopupMenuButtonItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIPopupMenuView.html">QMUIPopupMenuView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIScrollAnimator.html">QMUIScrollAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUISearchBar">QMUISearchBar</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUISegmentedControl.html">QMUISegmentedControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUISlider.html">QMUISlider</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIStaticTableViewCellData.html">QMUIStaticTableViewCellData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIStaticTableViewCellDataSource.html">QMUIStaticTableViewCellDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableView.html">QMUITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableViewCell.html">QMUITableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITableViewHeaderFooterView.html">QMUITableViewHeaderFooterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUITestView">QMUITestView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)QMUITestWindow">QMUITestWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITextField.html">QMUITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITextView.html">QMUITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeColor.html">QMUIThemeColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeImage.html">QMUIThemeImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeManager.html">QMUIThemeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeManagerCenter.html">QMUIThemeManagerCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIThemeVisualEffect.html">QMUIThemeVisualEffect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUITips.html">QMUITips</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastAnimator.html">QMUIToastAnimator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastBackgroundView.html">QMUIToastBackgroundView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastContentView.html">QMUIToastContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToastView.html">QMUIToastView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIToolbarButton.html">QMUIToolbarButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIVisualEffectView.html">QMUIVisualEffectView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIWeakObjectContainer.html">QMUIWeakObjectContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIZoomImageView.html">QMUIZoomImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QMUIZoomImageViewVideoToolbar.html">QMUIZoomImageViewVideoToolbar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUICollectionViewPagingLayoutRotationRadiusAutomatic">QMUICollectionViewPagingLayoutRotationRadiusAutomatic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIDialogSelectionViewControllerSelectedItemIndexNone">QMUIDialogSelectionViewControllerSelectedItemIndexNone</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIFillButtonCornerRadiusAdjustsBounds">QMUIFillButtonCornerRadiusAdjustsBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIFloatLayoutViewAutomaticalMaximumItemSize">QMUIFloatLayoutViewAutomaticalMaximumItemSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIGhostButtonCornerRadiusAdjustsBounds">QMUIGhostButtonCornerRadiusAdjustsBounds</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIImagePreviewViewControllerCornerRadiusAutomaticDimension">QMUIImagePreviewViewControllerCornerRadiusAutomaticDimension</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUILoggerAllNamesKeyInUserDefaults">QMUILoggerAllNamesKeyInUserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIThemeDidChangeNotification">QMUIThemeDidChangeNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUIThemeManagerNameDefault">QMUIThemeManagerNameDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@QMUITipsAutomaticallyHideToastSeconds">QMUITipsAutomaticallyHideToastSeconds</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlbumContentType.html">QMUIAlbumContentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlbumSortType.html">QMUIAlbumSortType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlertActionStyle.html">QMUIAlertActionStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAlertControllerStyle.html">QMUIAlertControllerStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAnimationEasings.html">QMUIAnimationEasings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetAuthorizationStatus.html">QMUIAssetAuthorizationStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetDownloadStatus.html">QMUIAssetDownloadStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetSubType.html">QMUIAssetSubType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIAssetType.html">QMUIAssetType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIButtonImagePosition.html">QMUIButtonImagePosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUICollectionViewPagingLayoutStyle.html">QMUICollectionViewPagingLayoutStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIFillButtonColor.html">QMUIFillButtonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIGhostButtonColor.html">QMUIGhostButtonColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIImagePreviewMediaType.html">QMUIImagePreviewMediaType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIImagePreviewViewControllerTransitioningStyle.html">QMUIImagePreviewViewControllerTransitioningStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUILogLevel.html">QMUILogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIModalPresentationAnimationStyle.html">QMUIModalPresentationAnimationStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationButtonType.html">QMUINavigationButtonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationTitleViewAccessoryType.html">QMUINavigationTitleViewAccessoryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUINavigationTitleViewStyle.html">QMUINavigationTitleViewStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIPieProgressViewShape.html">QMUIPieProgressViewShape</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIPopupContainerViewLayoutDirection.html">QMUIPopupContainerViewLayoutDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIStaticTableViewCellAccessoryType.html">QMUIStaticTableViewCellAccessoryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUITableViewHeaderFooterViewType.html">QMUITableViewHeaderFooterViewType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToastAnimationType.html">QMUIToastAnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToastViewPosition.html">QMUIToastViewPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QMUIToolbarButtonType.html">QMUIToolbarButtonType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIAlbumViewControllerDelegate.html">QMUIAlbumViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIAlertControllerDelegate.html">QMUIAlertControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellHeightCache_UITableViewDataSource.html">QMUICellHeightCache_UITableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellHeightKeyCache_UITableViewDelegate.html">QMUICellHeightKeyCache_UITableViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUICellSizeKeyCache_UICollectionViewDelegate.html">QMUICellSizeKeyCache_UICollectionViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIDynamicEffectProtocol.html">QMUIDynamicEffectProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIDynamicImageProtocol.html">QMUIDynamicImageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIEmptyViewLoadingViewProtocol.html">QMUIEmptyViewLoadingViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePickerPreviewViewControllerDelegate.html">QMUIImagePickerPreviewViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePickerViewControllerDelegate.html">QMUIImagePickerViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIImagePreviewViewDelegate.html">QMUIImagePreviewViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIKeyboardManagerDelegate.html">QMUIKeyboardManagerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUILoggerDelegate.html">QMUILoggerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationComponentProtocol.html">QMUIModalPresentationComponentProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationContentViewControllerProtocol.html">QMUIModalPresentationContentViewControllerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIModalPresentationViewControllerDelegate.html">QMUIModalPresentationViewControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIMoreOperationControllerDelegate.html">QMUIMoreOperationControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUINavigationTitleViewDelegate.html">QMUINavigationTitleViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIPopupMenuItemProtocol.html">QMUIPopupMenuItemProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:objc(pl)QMUITableViewDataSource">QMUITableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITableViewDelegate.html">QMUITableViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITextFieldDelegate.html">QMUITextFieldDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUITextViewDelegate.html">QMUITextViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIToastAnimatorDelegate.html">QMUIToastAnimatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIWindowSizeMonitorProtocol.html">QMUIWindowSizeMonitorProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QMUIZoomImageViewDelegate.html">QMUIZoomImageViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIWindowSizeMonitor.h@T@QMUIWindowSizeObserverHandler">QMUIWindowSizeObserverHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Type%20Definitions.html#/c:QMUIAssetsManager.h@T@QMUIWriteAssetCompletionBlock">QMUIWriteAssetCompletionBlock</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUIImageWriteToSavedPhotosAlbumWithAlbumAssetsGroup">QMUIImageWriteToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUISaveImageAtPathToSavedPhotosAlbumWithAlbumAssetsGroup">QMUISaveImageAtPathToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@QMUISaveVideoAtPathToSavedPhotosAlbumWithAlbumAssetsGroup">QMUISaveVideoAtPathToSavedPhotosAlbumWithAlbumAssetsGroup</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInBack">QMUI_EaseInBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInBounce">QMUI_EaseInBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInCirc">QMUI_EaseInCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInCubic">QMUI_EaseInCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInElastic">QMUI_EaseInElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInExpo">QMUI_EaseInExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutBack">QMUI_EaseInOutBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutBounce">QMUI_EaseInOutBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutCirc">QMUI_EaseInOutCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutCubic">QMUI_EaseInOutCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutElastic">QMUI_EaseInOutElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutExpo">QMUI_EaseInOutExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuad">QMUI_EaseInOutQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuart">QMUI_EaseInOutQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutQuint">QMUI_EaseInOutQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInOutSine">QMUI_EaseInOutSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuad">QMUI_EaseInQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuart">QMUI_EaseInQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInQuint">QMUI_EaseInQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseInSine">QMUI_EaseInSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutBack">QMUI_EaseOutBack</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutBounce">QMUI_EaseOutBounce</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutCirc">QMUI_EaseOutCirc</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutCubic">QMUI_EaseOutCubic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutElastic">QMUI_EaseOutElastic</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutExpo">QMUI_EaseOutExpo</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuad">QMUI_EaseOutQuad</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuart">QMUI_EaseOutQuart</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutQuint">QMUI_EaseOutQuint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseOutSine">QMUI_EaseOutSine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_EaseSpring">QMUI_EaseSpring</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:QMUIEasings.h@F@QMUI_Linear">QMUI_Linear</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>QMUITableViewCell</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUITableViewCell</span> <span class="p">:</span> <span class="nc">UITableViewCell</span>
+
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">UITableViewCellStyle</span> <span class="n">style</span><span class="p">;</span>
+
+<span class="cm">/**
+ *  调整 imageView 的位置偏移，常用于调整 imageView 和 textLabel 之间的间距，默认为 UIEdgeInsetsZero。
+ *  @warning 目前只对 UITableViewCellStyleDefault 和 UITableViewCellStyleSubtitle 类型的 cell 开放
+ */</span>
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">imageEdgeInsets</span><span class="p">;</span>
+
+<span class="cm">/**
+ *  调整 textLabel 的位置偏移，默认为 UIEdgeInsetsZero。
+ *  @warning 目前只对 UITableViewCellStyleDefault 和 UITableViewCellStyleSubtitle 类型的 cell 开放
+ */</span>
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">textLabelEdgeInsets</span><span class="p">;</span>
+
+<span class="c1">/// 调整 detailTextLabel 的位置偏移，默认为 UIEdgeInsetsZero。</span>
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">detailTextLabelEdgeInsets</span><span class="p">;</span>
+
+<span class="cm">/**
+ 调整右边 accessoryView 的布局偏移，默认为 UIEdgeInsetsZero。
+ @warning 对系统原生的 view 不生效（例如向右箭头、“i”详情按钮等），如果通过配置表设置了 TableViewCellDisclosureIndicatorImage，由于该配置本质上是使用了自定义的 accessoryView 来实现，所以这个属性对其生效。
+ */</span>
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">accessoryEdgeInsets</span><span class="p">;</span>
+
+<span class="cm">/**
+ 调整右边 accessoryView 的点击响应区域，可用负值扩大点击范围，默认为(-12, -12, -12, -12)。
+ @warning 对系统原生的 view 不生效（例如向右箭头、“i”详情按钮等），如果通过配置表设置了 TableViewCellDetailButtonImage，由于该配置本质上是使用了自定义的 accessoryView 来实现，所以这个属性对其生效。
+ */</span>
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">accessoryHitTestEdgeInsets</span><span class="p">;</span>
+
+<span class="c1">/// 设置当前 cell 是否可用，setter 方法里面会修改当前的 subviews 样式，以展示出禁用的样式，具体样式请查看源码。</span>
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">getter</span> <span class="o">=</span> <span class="n">isEnabled</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">enabled</span><span class="p">;</span>
+
+<span class="c1">/// 保存对 tableView 的弱引用，在布局时可能会使用到 tableView 的一些属性例如 separatorColor 等</span>
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">weak</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">UITableView</span> <span class="o">*</span><span class="n">parentTableView</span><span class="p">;</span>
+
+<span class="cm">/**
+ *  cell 处于 section 中的位置，要求：
+ *  1. cell 使用 initForTableViewXxx 方法初始化，或者初始化完后为 parentTableView 属性赋值。
+ *  2. 在 cellForRow 里调用 [cell updateCellAppearanceWithIndexPath:] 方法。
+ *  3. 之后即可通过 cellPosition 获取到正确的位置。
+ */</span>
+<span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">QMUITableViewCellPosition</span> <span class="n">cellPosition</span><span class="p">;</span>
+
+<span class="cm">/**
+ *  首选初始化方法
+ *
+ *  @param tableView       cell所在的tableView
+ *  @param style           tableView的style
+ *  @param reuseIdentifier tableView的reuseIdentifier
+ *
+ *  @return 一个QMUITableViewCell实例
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initForTableView</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UITableView</span> <span class="o">*</span><span class="p">)</span><span class="nv">tableView</span> <span class="nf">withStyle</span><span class="p">:(</span><span class="n">UITableViewCellStyle</span><span class="p">)</span><span class="nv">style</span> <span class="nf">reuseIdentifier</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">reuseIdentifier</span><span class="p">;</span>
+
+<span class="c1">/// 同上</span>
+<span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initForTableView</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UITableView</span> <span class="o">*</span><span class="p">)</span><span class="nv">tableView</span> <span class="nf">withReuseIdentifier</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">reuseIdentifier</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)style"></a>
+                    <a name="//apple_ref/swift/Property/style" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)style">style</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span><span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">UITableViewCellStyle</span> <span class="n">style</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">style</span><span class="p">:</span> <span class="kt">UITableViewCell</span><span class="o">.</span><span class="kt">CellStyle</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)imageEdgeInsets"></a>
+                    <a name="//apple_ref/swift/Property/imageEdgeInsets" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)imageEdgeInsets">imageEdgeInsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>调整 imageView 的位置偏移，常用于调整 imageView 和 textLabel 之间的间距，默认为 UIEdgeInsetsZero。</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    目前只对 UITableViewCellStyleDefault 和 UITableViewCellStyleSubtitle 类型的 cell 开放
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">imageEdgeInsets</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">imageEdgeInsets</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)textLabelEdgeInsets"></a>
+                    <a name="//apple_ref/swift/Property/textLabelEdgeInsets" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)textLabelEdgeInsets">textLabelEdgeInsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>调整 textLabel 的位置偏移，默认为 UIEdgeInsetsZero。</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    目前只对 UITableViewCellStyleDefault 和 UITableViewCellStyleSubtitle 类型的 cell 开放
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">textLabelEdgeInsets</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">textLabelEdgeInsets</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)detailTextLabelEdgeInsets"></a>
+                    <a name="//apple_ref/swift/Property/detailTextLabelEdgeInsets" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)detailTextLabelEdgeInsets">detailTextLabelEdgeInsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>调整 detailTextLabel 的位置偏移，默认为 UIEdgeInsetsZero。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">detailTextLabelEdgeInsets</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">detailTextLabelEdgeInsets</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)accessoryEdgeInsets"></a>
+                    <a name="//apple_ref/swift/Property/accessoryEdgeInsets" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)accessoryEdgeInsets">accessoryEdgeInsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>调整右边 accessoryView 的布局偏移，默认为 UIEdgeInsetsZero。</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    对系统原生的 view 不生效（例如向右箭头、“i”详情按钮等），如果通过配置表设置了 TableViewCellDisclosureIndicatorImage，由于该配置本质上是使用了自定义的 accessoryView 来实现，所以这个属性对其生效。
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">accessoryEdgeInsets</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">accessoryEdgeInsets</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)accessoryHitTestEdgeInsets"></a>
+                    <a name="//apple_ref/swift/Property/accessoryHitTestEdgeInsets" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)accessoryHitTestEdgeInsets">accessoryHitTestEdgeInsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>调整右边 accessoryView 的点击响应区域，可用负值扩大点击范围，默认为(-12, -12, -12, -12)。</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    对系统原生的 view 不生效（例如向右箭头、“i”详情按钮等），如果通过配置表设置了 TableViewCellDetailButtonImage，由于该配置本质上是使用了自定义的 accessoryView 来实现，所以这个属性对其生效。
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">UIEdgeInsets</span> <span class="n">accessoryHitTestEdgeInsets</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">accessoryHitTestEdgeInsets</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)enabled"></a>
+                    <a name="//apple_ref/swift/Property/enabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)enabled">enabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>设置当前 cell 是否可用，setter 方法里面会修改当前的 subviews 样式，以展示出禁用的样式，具体样式请查看源码。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">getter</span><span class="o">=</span><span class="n">isEnabled</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">enabled</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isEnabled</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)parentTableView"></a>
+                    <a name="//apple_ref/swift/Property/parentTableView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)parentTableView">parentTableView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>保存对 tableView 的弱引用，在布局时可能会使用到 tableView 的一些属性例如 separatorColor 等</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">weak</span><span class="p">,</span> <span class="n">nullable</span><span class="p">)</span> <span class="n">UITableView</span> <span class="o">*</span><span class="n">parentTableView</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">parentTableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(py)cellPosition"></a>
+                    <a name="//apple_ref/swift/Property/cellPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(py)cellPosition">cellPosition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>cell 处于 section 中的位置，要求：</p>
+
+<ol>
+<li>cell 使用 initForTableViewXxx 方法初始化，或者初始化完后为 parentTableView 属性赋值。</li>
+<li>在 cellForRow 里调用 [cell updateCellAppearanceWithIndexPath:] 方法。</li>
+<li>之后即可通过 cellPosition 获取到正确的位置。</li>
+</ol>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="kt">int</span> <span class="n">cellPosition</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cellPosition</span><span class="p">:</span> <span class="kt">UITableView</span><span class="o">.</span><span class="kt">ScrollPosition</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(im)initForTableView:withStyle:reuseIdentifier:"></a>
+                    <a name="//apple_ref/swift/Method/-initForTableView:withStyle:reuseIdentifier:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(im)initForTableView:withStyle:reuseIdentifier:">-initForTableView:<wbr>withStyle:<wbr>reuseIdentifier:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>首选初始化方法</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initForTableView</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UITableView</span> <span class="o">*</span><span class="p">)</span><span class="nv">tableView</span>
+                                <span class="nf">withStyle</span><span class="p">:(</span><span class="n">UITableViewCellStyle</span><span class="p">)</span><span class="nv">style</span>
+                          <span class="nf">reuseIdentifier</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">reuseIdentifier</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="k">for</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">?,</span> <span class="n">with</span> <span class="nv">style</span><span class="p">:</span> <span class="kt">UITableViewCell</span><span class="o">.</span><span class="kt">CellStyle</span><span class="p">,</span> <span class="nv">reuseIdentifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>tableView</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>cell所在的tableView</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>style</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>tableView的style</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>reuseIdentifier</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>tableView的reuseIdentifier</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>一个QMUITableViewCell实例</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(im)initForTableView:withReuseIdentifier:"></a>
+                    <a name="//apple_ref/swift/Method/-initForTableView:withReuseIdentifier:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(im)initForTableView:withReuseIdentifier:">-initForTableView:<wbr>withReuseIdentifier:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>同上</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">nullable</span> <span class="n">instancetype</span><span class="p">)</span><span class="nf">initForTableView</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">UITableView</span> <span class="o">*</span><span class="p">)</span><span class="nv">tableView</span>
+                      <span class="nf">withReuseIdentifier</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">reuseIdentifier</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="k">for</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">?,</span> <span class="n">withReuseIdentifier</span> <span class="nv">reuseIdentifier</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/QMUISubclassingHooks"></a>
+                <a name="//apple_ref/swift/Section/QMUISubclassingHooks" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/QMUISubclassingHooks"></a>
+                  <h3 class="section-name"><p>QMUISubclassingHooks</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(im)didInitializeWithStyle:"></a>
+                    <a name="//apple_ref/swift/Method/-didInitializeWithStyle:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(im)didInitializeWithStyle:">-didInitializeWithStyle:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>初始化时调用的方法，会在两个 NS_DESIGNATED_INITIALIZER 方法中被调用，所以子类如果需要同时支持两个 NS_DESIGNATED_INITIALIZER 方法，则建议把初始化时要做的事情放到这个方法里。否则仅需重写要支持的那个 NS_DESIGNATED_INITIALIZER 方法即可。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">didInitializeWithStyle</span><span class="p">:(</span><span class="n">UITableViewCellStyle</span><span class="p">)</span><span class="nv">style</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">didInitialize</span><span class="p">(</span><span class="n">with</span> <span class="nv">style</span><span class="p">:</span> <span class="kt">UITableViewCell</span><span class="o">.</span><span class="kt">CellStyle</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITableViewCell(im)updateCellAppearanceWithIndexPath:"></a>
+                    <a name="//apple_ref/swift/Method/-updateCellAppearanceWithIndexPath:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITableViewCell(im)updateCellAppearanceWithIndexPath:">-updateCellAppearanceWithIndexPath:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>用于继承的接口，设置一些cell相关的UI，需要自 cellForRowAtIndexPath 里面调用。默认实现是设置当前cell在哪个position。</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateCellAppearanceWithIndexPath</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSIndexPath</span> <span class="o">*</span><span class="p">)</span><span class="nv">indexPath</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateAppearance</span><span class="p">(</span><span class="n">with</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

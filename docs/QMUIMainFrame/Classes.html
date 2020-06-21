@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Classes  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Section/Classes" class="dashAnchor"></a>
+
+    <a title="Classes  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+           Docs
+        </a>
+         (82% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html"> Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Classes  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/QMUICommonTableViewController.html">QMUICommonTableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/QMUICommonViewController.html">QMUICommonViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/QMUINavigationController.html">QMUINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/QMUITabBarViewController.html">QMUITabBarViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Constants.html#/c:@QMUICommonTableViewControllerSectionFooterIdentifier">QMUICommonTableViewControllerSectionFooterIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Constants.html#/c:@QMUICommonTableViewControllerSectionHeaderIdentifier">QMUICommonTableViewControllerSectionHeaderIdentifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/QMUICustomNavigationBarTransitionDelegate.html">QMUICustomNavigationBarTransitionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/QMUINavigationControllerAppearanceDelegate.html">QMUINavigationControllerAppearanceDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols.html#/c:objc(pl)QMUINavigationControllerDelegate">QMUINavigationControllerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/QMUINavigationControllerTransitionDelegate.html">QMUINavigationControllerTransitionDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>Classes</h1>
+            <p>The following classes are available globally.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUINavigationController"></a>
+                    <a name="//apple_ref/swift/Class/QMUINavigationController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUINavigationController">QMUINavigationController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Classes/QMUINavigationController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUINavigationController</span> <span class="p">:</span> <span class="nc">UINavigationController</span>
+
+<span class="cm">/**
+ *  初始化时调用的方法，会在 initWithNibName:bundle: 和 initWithCoder: 这两个指定的初始化方法中被调用，所以子类如果需要同时支持两个初始化方法，则建议把初始化时要做的事情放到这个方法里。否则仅需重写要支持的那个初始化方法即可。
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">didInitialize</span> <span class="n">NS_REQUIRES_SUPER</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">QMUINavigationController</span> <span class="p">:</span> <span class="kt">UINavigationController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonTableViewController"></a>
+                    <a name="//apple_ref/swift/Class/QMUICommonTableViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonTableViewController">QMUICommonTableViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>可作为项目内所有 <code>UITableViewController</code> 的基类，注意是继承自 <code><a href="Classes/QMUICommonViewController.html">QMUICommonViewController</a></code> 而不是 <code>UITableViewController</code>。</p>
+
+<p>一般通过 <code>initWithStyle:</code> 方法初始化，对于要生成 <code>UITableViewStylePlain</code> 类型的列表，推荐使用 <code>init:</code> 方法。</p>
+
+<p>提供的功能包括：</p>
+
+<ol>
+<li>集成 <code>QMUISearchController</code>，可通过属性 <code>shouldShowSearchBar</code> 来快速为列表生成一个 searchBar 及 searchController，具体请查看 QMUICommonTableViewController (Search)。</li>
+<li>支持仅设置 tableView:titleForHeaderInSection: 就能自动生成 sectionHeader，无需编写 viewForHeaderInSection:、heightForHeaderInSection: 等方法。</li>
+<li>自带一个 QMUIEmptyView，作为 tableView 的 subview，可用于显示 loading、空或错误提示语等。</li>
+</ol>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>emptyView 会从 tableHeaderView 的下方开始布局到 tableView 最底部，因此它会遮挡 tableHeaderView 之外的部分（比如 tableFooterView 和 cells ），你可以重写 layoutEmptyView 来改变这个布局方式</p>
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    <p>QMUISearchController</p>
+
+</div>
+
+                        <a href="Classes/QMUICommonTableViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUICommonTableViewController</span> <span class="p">:</span> <span class="nc"><a href="Classes/QMUICommonViewController.html">QMUICommonViewController</a></span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">QMUICommonTableViewController</span> <span class="p">:</span> <span class="kt"><a href="Classes/QMUICommonViewController.html">QMUICommonViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUICommonViewController"></a>
+                    <a name="//apple_ref/swift/Class/QMUICommonViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUICommonViewController">QMUICommonViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>可作为项目内所有 <code>UIViewController</code> 的基类，提供的功能包括：</p>
+
+<ol>
+<li><p>自带顶部标题控件 <code>QMUINavigationTitleView</code>，支持loading、副标题、下拉菜单，设置标题依然使用系统的 <code>setTitle:</code> 方法</p></li>
+<li><p>自带空界面控件 <code>QMUIEmptyView</code>，支持显示loading、空文案、操作按钮</p></li>
+<li><p>统一约定的常用接口，例如初始化 subview、设置顶部 <code>navigationItem</code>、底部 <code>toolbarItem</code>、响应系统的动态字体大小变化、&hellip;，从而保证相同类型的代码集中到同一个方法内，避免多人交叉维护时代码分散难以查找</p></li>
+<li><p>配合 <code><a href="Classes/QMUINavigationController.html">QMUINavigationController</a></code> 使用时，可以得到 <code>willPopInNavigationControllerWithAnimated:</code>、<code>didPopInNavigationControllerWithAnimated:</code> 这两个时机</p></li>
+</ol>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUINavigationTitleView
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    QMUIEmptyView
+
+</div>
+
+                        <a href="Classes/QMUICommonViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUICommonViewController</span> <span class="p">:</span> <span class="nc">UIViewController</span> <span class="p">{</span>
+  <span class="n">QMUIEmptyView</span> <span class="o">*</span><span class="n">_emptyView</span><span class="p">;</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">QMUICommonViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)QMUITabBarViewController"></a>
+                    <a name="//apple_ref/swift/Class/QMUITabBarViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)QMUITabBarViewController">QMUITabBarViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>建议作为项目里 tabBarController 的基类，内部处理了几件事情：</p>
+
+<ol>
+<li>配合配置表修改 tabBar 的样式。</li>
+<li>管理界面支持显示的方向。</li>
+</ol>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    当你需要实现“tabBarController 首页那几个界面显示 tabBar，而 push 进去的所有子界面都隐藏 tabBar”的效果时，可将配置表里的 HidesBottomBarWhenPushedInitially 改为 YES，然后手动将 tabBarController 首页的那几个界面的 hidesBottomBarWhenPushed 属性改为 NO，即可实现。
+
+</div>
+
+<p>Inherent your tabBarController from this, so you can enjoy:</p>
+
+<ol>
+<li>a tabBar with styles defined in configuration templates</li>
+<li>a tabBar that manages supported interface orientations</li>
+</ol>
+
+                        <a href="Classes/QMUITabBarViewController.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">QMUITabBarViewController</span> <span class="p">:</span> <span class="nc">UITabBarController</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">QMUITabBarViewController</span> <span class="p">:</span> <span class="kt">UITabBarController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-06-22)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
